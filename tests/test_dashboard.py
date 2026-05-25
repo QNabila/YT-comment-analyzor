@@ -84,6 +84,8 @@ def test_vercel_mode_uses_report_json_without_sqlite(tmp_path):
     html = client.get("/")
     assert html.status_code == 200
     assert "Creator Care Map" in html.text
+    assert "yt-audience-report logo" in html.text
+    assert "research_mark.png" not in html.text
 
     channels = client.get("/api/channels")
     assert channels.status_code == 200

@@ -242,6 +242,7 @@ def _dashboard_html(channels: list[dict[str, str]], asset_path: str = "/static/r
         f"<option value='{escape(channel['handle'])}'>{escape(channel['title'])} (@{escape(channel['handle'])})</option>"
         for channel in channels
     )
+    brand_mark = _brand_mark_svg()
     return f"""<!doctype html>
 <html>
 <head>
@@ -253,7 +254,7 @@ def _dashboard_html(channels: list[dict[str, str]], asset_path: str = "/static/r
 <body data-initial-channel="{escape(initial_channel)}" data-empty-message="{escape(empty_message)}">
   <header class="hero">
     <div class="brand-lockup">
-      <div class="brand-icon"><img src="{escape(asset_path)}" alt=""></div>
+      <div class="brand-icon">{brand_mark}</div>
       <div>
         <p class="eyebrow">Mental Health Audience Research</p>
         <h1>Creator Care Map</h1>
@@ -306,6 +307,21 @@ def _dashboard_html(channels: list[dict[str, str]], asset_path: str = "/static/r
 </html>"""
 
 
+def _brand_mark_svg() -> str:
+    return """
+      <svg viewBox="0 0 96 96" role="img" aria-label="yt-audience-report logo">
+        <rect x="5" y="5" width="86" height="86" rx="18" fill="var(--card)"/>
+        <path d="M35 28c-9 0-16 7-16 16 0 7 4 13 10 15v9l10-8h7c9 0 16-7 16-16s-7-16-16-16H35z" fill="var(--soft-panel)" stroke="var(--deep-teal)" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M55 38h7c8 0 15 6 15 14s-7 14-15 14h-3l-9 7v-8c-5-2-9-7-9-13" fill="none" stroke="var(--clay)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M36 42c4-8 16-8 20 0" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M32 51h25" stroke="var(--deep-teal)" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="39" cy="40" r="3" fill="var(--high)"/>
+        <circle cx="51" cy="40" r="3" fill="var(--high)"/>
+        <path d="M68 30v10M63 35h10" stroke="var(--lavender)" stroke-width="4" stroke-linecap="round"/>
+      </svg>
+    """
+
+
 def _dashboard_css() -> str:
     return f"""
     :root {{
@@ -316,8 +332,8 @@ def _dashboard_css() -> str:
     body {{ margin: 0; background: var(--cream); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }}
     .hero {{ align-items: center; display: grid; grid-template-columns: minmax(0, 1fr) minmax(390px, 430px); gap: 32px; margin: 24px 56px 0; padding: 24px; border: 1px solid var(--border); border-top: 10px solid var(--deep-teal); border-radius: 8px; background: var(--deep-teal); box-shadow: 0 20px 44px rgba(49,82,76,.16); }}
     .brand-lockup {{ align-items: center; display: flex; gap: 22px; min-width: 0; }}
-    .brand-icon {{ background: var(--card); border: 1px solid var(--sage); border-radius: 8px; flex: 0 0 78px; height: 78px; padding: 6px; }}
-    .brand-icon img {{ border-radius: 6px; display: block; height: 100%; object-fit: cover; width: 100%; }}
+    .brand-icon {{ align-items: center; background: var(--card); border: 1px solid var(--sage); border-radius: 8px; display: flex; flex: 0 0 78px; height: 78px; justify-content: center; padding: 8px; }}
+    .brand-icon svg {{ display: block; height: 100%; width: 100%; }}
     .eyebrow, .section-head p, label {{ color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }}
     .hero .eyebrow {{ color: var(--sage); margin: 0 0 4px; }}
     h1 {{ color: var(--card); font-size: clamp(36px, 5vw, 54px); line-height: 1; margin: 0 0 8px; }}
