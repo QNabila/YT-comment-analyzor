@@ -50,7 +50,7 @@ def test_dashboard_report_and_comment_volume(tmp_path):
 
     html = client.get("/")
     assert html.status_code == 200
-    assert "Audience Intelligence Dashboard" in html.text
+    assert "Audience Needs Lab" in html.text
 
     report_response = client.get("/api/report?channel=pocketpsych")
     assert report_response.status_code == 200

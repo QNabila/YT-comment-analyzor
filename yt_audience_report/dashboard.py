@@ -167,30 +167,53 @@ def _dashboard_html(channels: list[dict[str, str]]) -> str:
 </head>
 <body data-initial-channel="{escape(initial_channel)}">
   <header class="hero">
-    <div class="hero-copy">
-      <p class="eyebrow">Psychology Niche Analysis Suite</p>
-      <h1>Audience Intelligence Dashboard</h1>
-      <p>Evidence-backed audience signals from YouTube comments, designed for mental health creators.</p>
+    <div class="brand-lockup">
+      <div class="brand-icon"><img src="/static/research_mark.png" alt=""></div>
+      <div>
+        <p class="eyebrow">Mental Health Audience Research</p>
+        <h1>Audience Needs Lab</h1>
+        <p>Evidence-backed insight into what viewers are struggling with, what they trust, and what content they still need.</p>
+      </div>
+    </div>
+    <div class="hero-side">
       <div class="controls">
         <label for="channelSelect">Channel</label>
         <select id="channelSelect">{channel_options}</select>
       </div>
+      <div id="statusMetrics" class="status-metrics"></div>
     </div>
-    <div class="hero-visual"><img src="/static/research_mark.png" alt=""></div>
   </header>
 
   <main>
+    <nav class="tabs" aria-label="Dashboard sections">
+      <a href="#overview">Overview</a>
+      <a href="#audience">Audience</a>
+      <a href="#needs">Needs</a>
+      <a href="#ideas">Ideas</a>
+      <a href="#evidence">Evidence</a>
+    </nav>
     <section id="emptyState" class="empty" hidden></section>
-    <section id="metrics" class="metric-grid"></section>
+    <section id="overview" class="metric-grid"></section>
+    <section class="analysis-row">
+      <article class="panel chart-panel">
+        <div class="section-head"><p>Hidden Audience Patterns</p><h2>Need and struggle mix</h2></div>
+        <div id="signalMix" class="category-chart"></div>
+      </article>
+      <article class="panel what-panel">
+        <div class="section-head"><p>Creator Briefing</p><h2>What YouTube analytics misses</h2></div>
+        <div id="whatThisMeans" class="meaning-copy"></div>
+      </article>
+    </section>
     <section class="dashboard-grid">
-      <article class="panel wide"><div class="section-head"><p>Audience</p><h2>Segment breakdown</h2></div><div id="segments" class="card-grid"></div></article>
+      <article id="audience" class="panel wide"><div class="section-head"><p>Audience</p><h2>Segment breakdown</h2></div><div id="segments" class="card-grid"></div></article>
       <article class="panel"><div class="section-head"><p>Emotional Temperature</p><h2>Emotional states</h2></div><div id="emotions" class="stack-list"></div></article>
       <article class="panel"><div class="section-head"><p>Volume</p><h2>Comment-rich videos</h2></div><div id="videoVolume" class="bar-list"></div></article>
-      <article class="panel wide"><div class="section-head"><p>Needs</p><h2>Top unmet needs</h2></div><div id="needs" class="rank-list"></div></article>
-      <article class="panel wide"><div class="section-head"><p>Strategy</p><h2>Evidence-grounded video ideas</h2></div><div id="ideas" class="idea-grid"></div></article>
+      <article id="needs" class="panel wide"><div class="section-head"><p>Needs</p><h2>Top unmet needs</h2></div><div id="needsList" class="rank-list"></div></article>
+      <article class="panel"><div class="section-head"><p>Content Gaps</p><h2>Blind spot priority</h2></div><div id="opportunityMap" class="stack-list"></div></article>
+      <article id="ideas" class="panel wide"><div class="section-head"><p>Strategy</p><h2>Evidence-grounded video ideas</h2></div><div id="ideasList" class="idea-grid"></div></article>
       <article class="panel"><div class="section-head"><p>Stories</p><h2>High-signal viewers</h2></div><div id="stories" class="story-list"></div></article>
       <article class="panel"><div class="section-head"><p>Inbox</p><h2>Direct requests</h2></div><div id="requests" class="table-wrap"></div></article>
-      <article class="panel wide"><div class="section-head"><p>Blind Spots</p><h2>Content gaps to address</h2></div><div id="blindSpots" class="card-grid"></div></article>
+      <article id="evidence" class="panel wide"><div class="section-head"><p>Blind Spots</p><h2>Content gaps to address</h2></div><div id="blindSpots" class="card-grid"></div></article>
     </section>
   </main>
   <script>{_dashboard_js()}</script>
@@ -204,21 +227,40 @@ def _dashboard_css() -> str:
 {palette_css_vars()}
     }}
     * {{ box-sizing: border-box; }}
+    html {{ scroll-behavior: smooth; }}
     body {{ margin: 0; background: var(--cream); color: var(--ink); font-family: Arial, Helvetica, sans-serif; }}
-    .hero {{ display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr); gap: 32px; padding: 44px 56px 32px; border-top: 10px solid var(--deep-teal); background: linear-gradient(135deg, var(--soft-panel), var(--cream)); }}
+    .hero {{ align-items: center; display: grid; grid-template-columns: minmax(0, 1fr) minmax(390px, 430px); gap: 32px; margin: 24px 56px 0; padding: 24px; border: 1px solid var(--border); border-top: 10px solid var(--deep-teal); border-radius: 8px; background: var(--deep-teal); box-shadow: 0 20px 44px rgba(49,82,76,.16); }}
+    .brand-lockup {{ align-items: center; display: flex; gap: 22px; min-width: 0; }}
+    .brand-icon {{ background: var(--card); border: 1px solid var(--sage); border-radius: 8px; flex: 0 0 78px; height: 78px; padding: 6px; }}
+    .brand-icon img {{ border-radius: 6px; display: block; height: 100%; object-fit: cover; width: 100%; }}
     .eyebrow, .section-head p, label {{ color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }}
-    h1 {{ font-size: clamp(36px, 5vw, 64px); line-height: 1; max-width: 780px; margin: 20px 0 16px; }}
-    .hero p:not(.eyebrow) {{ color: var(--muted); font-size: 18px; line-height: 1.55; max-width: 700px; }}
-    .controls {{ align-items: center; display: flex; gap: 14px; margin-top: 34px; }}
-    select {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; color: var(--ink); min-width: 310px; padding: 12px 14px; }}
-    .hero-visual {{ background: var(--deep-teal); border-radius: 8px; min-height: 260px; padding: 18px; box-shadow: 0 18px 36px rgba(49,82,76,.14); }}
-    .hero-visual img {{ border-radius: 6px; display: block; height: 100%; object-fit: cover; width: 100%; }}
-    main {{ padding: 28px 56px 56px; }}
+    .hero .eyebrow {{ color: var(--sage); margin: 0 0 4px; }}
+    h1 {{ color: var(--card); font-size: clamp(36px, 5vw, 54px); line-height: 1; margin: 0 0 8px; }}
+    .hero p:not(.eyebrow) {{ color: var(--border); font-size: 17px; line-height: 1.45; margin: 0; max-width: 760px; }}
+    .hero-side {{ display: grid; gap: 14px; min-width: 0; }}
+    .controls {{ align-items: center; display: flex; gap: 14px; justify-content: flex-end; }}
+    .controls label {{ color: var(--border); }}
+    select {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; color: var(--ink); min-width: 0; max-width: 100%; padding: 12px 14px; width: 100%; }}
+    .status-metrics {{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }}
+    .status-card {{ background: rgba(255,253,248,.08); border: 1px solid rgba(217,222,214,.25); border-radius: 8px; color: var(--card); padding: 13px; }}
+    .status-card span {{ color: var(--border); display: block; font-size: 11px; font-weight: 700; text-transform: uppercase; }}
+    .status-card strong {{ color: var(--card); display: block; font-size: 18px; margin-top: 5px; white-space: nowrap; }}
+    main {{ padding: 24px 56px 56px; }}
+    .tabs {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; display: flex; gap: 8px; margin-bottom: 18px; padding: 8px; }}
+    .tabs a {{ border-radius: 7px; color: var(--ink); font-weight: 700; padding: 12px 18px; text-decoration: none; }}
+    .tabs a:first-child {{ background: var(--sage); color: var(--white); }}
     .metric-grid {{ display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-bottom: 20px; }}
     .metric, .panel, .signal-card, .idea-card, .story-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; box-shadow: 0 8px 22px rgba(49,82,76,.06); }}
-    .metric {{ padding: 20px; }}
+    .metric {{ min-height: 150px; padding: 20px; position: relative; overflow: hidden; }}
+    .metric::after {{ content: ""; position: absolute; right: 18px; top: 18px; width: 38px; height: 38px; border-radius: 8px; background: var(--soft-panel); }}
+    .metric:nth-child(1)::after {{ background: var(--sage); }}
+    .metric:nth-child(2)::after {{ background: var(--medium); }}
+    .metric:nth-child(3)::after {{ background: var(--high); }}
+    .metric:nth-child(4)::after {{ background: var(--clay); }}
     .metric span {{ color: var(--muted); display: block; font-size: 11px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }}
-    .metric strong {{ display: block; font-size: 30px; margin-top: 10px; }}
+    .metric strong {{ display: block; font-size: 40px; margin-top: 18px; }}
+    .metric p {{ color: var(--muted); font-weight: 700; line-height: 1.4; margin: 16px 0 0; max-width: 86%; }}
+    .analysis-row {{ display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(360px, .72fr); gap: 18px; margin-bottom: 18px; }}
     .dashboard-grid {{ display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, .72fr); gap: 18px; }}
     .panel {{ padding: 22px; min-width: 0; }}
     .wide {{ grid-column: span 1; }}
@@ -235,6 +277,17 @@ def _dashboard_css() -> str:
     .evidence {{ margin-top: 12px; }}
     code {{ background: var(--soft-panel); border-radius: 4px; color: var(--deep-teal); display: inline-block; font-size: 10px; margin: 2px 3px 2px 0; padding: 3px 5px; }}
     .stack-list, .bar-list, .rank-list, .story-list {{ display: grid; gap: 12px; }}
+    .category-chart {{ display: grid; gap: 13px; padding-top: 6px; }}
+    .category-row {{ align-items: center; display: grid; grid-template-columns: 190px 1fr 58px; gap: 14px; }}
+    .category-row strong {{ font-size: 14px; line-height: 1.1; text-align: right; }}
+    .category-row .bar {{ height: 18px; }}
+    .category-row:nth-child(2n) .bar i {{ background: linear-gradient(90deg, var(--lavender), var(--blue-gray)); }}
+    .category-row:nth-child(3n) .bar i {{ background: linear-gradient(90deg, var(--olive), var(--clay)); }}
+    .meaning-copy {{ color: var(--muted); display: grid; gap: 18px; font-size: 17px; font-weight: 700; line-height: 1.55; }}
+    .meaning-copy b {{ color: var(--ink); }}
+    .action-row {{ display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 8px; }}
+    .action-button {{ background: var(--sage); border-radius: 7px; color: var(--white); display: block; font-size: 15px; font-weight: 700; padding: 14px; text-align: center; }}
+    .action-button:nth-child(2) {{ background: var(--clay); }}
     .bar-row {{ display: grid; gap: 7px; }}
     .bar-row header {{ display: flex; justify-content: space-between; gap: 12px; font-size: 13px; }}
     .bar {{ background: var(--soft-panel); border-radius: 999px; height: 9px; overflow: hidden; }}
@@ -254,9 +307,14 @@ def _dashboard_css() -> str:
     th {{ background: var(--soft-panel); color: var(--deep-teal); font-size: 11px; text-transform: uppercase; }}
     .empty {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 20px; padding: 24px; }}
     @media (max-width: 980px) {{
-      .hero, .dashboard-grid, .metric-grid {{ grid-template-columns: 1fr; }}
-      main, .hero {{ padding-left: 22px; padding-right: 22px; }}
+      .hero, .dashboard-grid, .metric-grid, .analysis-row {{ grid-template-columns: 1fr; }}
+      main {{ padding-left: 22px; padding-right: 22px; }}
+      .hero {{ margin-left: 22px; margin-right: 22px; }}
+      .brand-lockup {{ align-items: flex-start; }}
+      .controls, .tabs {{ overflow-x: auto; justify-content: flex-start; }}
       .card-grid {{ grid-template-columns: 1fr; }}
+      .category-row {{ grid-template-columns: 1fr; }}
+      .category-row strong {{ text-align: left; }}
     }}
     """
 
@@ -286,11 +344,15 @@ def _dashboard_js() -> str:
       document.getElementById('emptyState').hidden = true;
       const report = (await reportRes.json()).report;
       const volume = volumeRes.ok ? (await volumeRes.json()).videos : report.video_counts || [];
+      renderStatus(report);
       renderMetrics(report);
+      renderSignalMix(report);
+      renderMeaning(report);
       renderCards('segments', report.audience_segments || []);
       renderBars('emotions', report.emotional_temperature || []);
       renderNeeds(report.unmet_needs || []);
       renderCards('blindSpots', report.blind_spots || []);
+      renderOpportunityMap(report.blind_spots || []);
       renderIdeas(report.video_ideas || []);
       renderStories(report.high_signal_stories || []);
       renderRequests(report.direct_requests || []);
@@ -300,16 +362,61 @@ def _dashboard_js() -> str:
       const empty = document.getElementById('emptyState');
       empty.hidden = false;
       empty.innerHTML = `<h2>Dashboard data not ready</h2><p>${esc(message)}</p>`;
-      document.getElementById('metrics').innerHTML = '';
+      document.getElementById('overview').innerHTML = '';
+    }
+    function countEvidence(items) {
+      return (items || []).reduce((total, item) => total + evidenceCount(item), 0);
+    }
+    function highCount(items) {
+      return (items || []).filter(item => item.severity === 'high').length;
+    }
+    function topByEvidence(items) {
+      return [...(items || [])].sort((a, b) => evidenceCount(b) - evidenceCount(a))[0];
+    }
+    function renderStatus(report) {
+      const metrics = report.metrics || {};
+      document.getElementById('statusMetrics').innerHTML = [
+        ['Evidence comments', (report.evidence_appendix || []).length],
+        ['Trust signals', countEvidence(report.trust_signals || [])],
+        ['Sample window', `${metrics.sample_start || 'n/a'} → ${metrics.sample_end || 'n/a'}`],
+      ].map(([label, value]) => `<div class="status-card"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join('');
     }
     function renderMetrics(report) {
       const metrics = report.metrics || {};
-      document.getElementById('metrics').innerHTML = [
-        ['Comments analyzed', metrics.comments_analyzed],
-        ['Urgent signals', metrics.urgent_signals],
-        ['Videos fetched', metrics.videos_fetched],
-        ['Video ideas', (report.video_ideas || []).length],
-      ].map(([label, value]) => `<div class="metric"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join('');
+      const topNeed = topByEvidence(report.unmet_needs || []);
+      const topSegment = topByEvidence(report.audience_segments || []);
+      document.getElementById('overview').innerHTML = [
+        ['Comments analyzed', metrics.comments_analyzed, `${metrics.videos_fetched || 0} recent videos represented in this audience sample.`],
+        ['Urgent emotional signals', metrics.urgent_signals, `Crisis-adjacent, shame-loaded, or low-support comments that need careful creator attention.`],
+        ['Strongest unmet need', topNeed ? topNeed.title : 'n/a', topNeed ? `${evidenceCount(topNeed)} comments point to a topic viewers still need explained.` : 'No repeated need found yet.'],
+        ['Primary viewer struggle', topSegment ? topSegment.title : 'n/a', topSegment ? `${evidenceCount(topSegment)} comments reveal this audience segment.` : 'No dominant struggle segment found yet.'],
+      ].map(([label, value, note]) => `<div class="metric"><span>${esc(label)}</span><strong>${esc(value)}</strong><p>${esc(note)}</p></div>`).join('');
+    }
+    function renderSignalMix(report) {
+      const rows = [
+        ...(report.audience_segments || []),
+        ...(report.unmet_needs || []),
+        ...(report.stigma_signals || []),
+        ...(report.blind_spots || []),
+        ...(report.trust_signals || []),
+        ...(report.loyalty_signals || []),
+      ].sort((a, b) => evidenceCount(b) - evidenceCount(a)).slice(0, 7);
+      const max = Math.max(1, ...rows.map(evidenceCount));
+      document.getElementById('signalMix').innerHTML = rows.map(item => `<div class="category-row"><strong>${esc(item.title)}</strong><div class="bar"><i style="width:${Math.max(6, evidenceCount(item) / max * 100)}%"></i></div><span>${evidenceCount(item)} signals</span></div>`).join('');
+    }
+    function renderMeaning(report) {
+      const topNeed = topByEvidence(report.unmet_needs || {});
+      const topBlindSpot = topByEvidence(report.blind_spots || {});
+      const trust = topByEvidence(report.trust_signals || {});
+      const stigma = topByEvidence(report.stigma_signals || {});
+      const loyalty = topByEvidence(report.loyalty_signals || {});
+      document.getElementById('whatThisMeans').innerHTML = `
+        <p>${topNeed ? `Viewers are not just engaging; they are repeatedly asking for help with <b>${esc(topNeed.title)}</b>. This is a clearer content signal than views or likes.` : 'The current sample does not show a dominant unmet need yet.'}</p>
+        <p>${stigma ? `<b>${esc(stigma.title)}</b> shows where the audience may be carrying shame, fear, or social risk. This should shape tone, wording, and safety disclaimers.` : 'No high-confidence stigma pattern is currently visible.'}</p>
+        <p>${topBlindSpot ? `<b>${esc(topBlindSpot.title)}</b> is the strongest content blind spot: commenters are revealing the need before the channel has fully addressed it.` : 'No major content blind spot is currently above the evidence threshold.'}</p>
+        <p>${trust ? `Trust is part of the product: comments suggest the creator wins through <b>${esc(trust.description).toLowerCase()}</b>` : ''} ${loyalty ? `Loyalty signals show some viewers treat the channel as an ongoing resource, not a one-off video.` : ''}</p>
+        <div class="action-row"><span class="action-button">Build from unmet needs</span><span class="action-button">Protect high-risk viewers</span></div>
+      `;
     }
     function renderCards(id, items) {
       document.getElementById(id).innerHTML = items.map(item => `<article class="signal-card">${severity(item.severity)}<h3>${esc(item.title)}</h3><p>${esc(item.description)}</p>${chips(item.evidence)}</article>`).join('');
@@ -319,10 +426,14 @@ def _dashboard_js() -> str:
       document.getElementById(id).innerHTML = items.map(item => `<div class="bar-row"><header><strong>${esc(item.title)}</strong><span>${evidenceCount(item)}</span></header><div class="bar"><i style="width:${Math.max(6, evidenceCount(item) / max * 100)}%"></i></div></div>`).join('');
     }
     function renderNeeds(items) {
-      document.getElementById('needs').innerHTML = items.map((item, index) => `<div class="rank-item">${severity(item.severity)}<h3>${index + 1}. ${esc(item.title)}</h3><p>${esc(item.description)}</p>${chips(item.evidence)}</div>`).join('');
+      document.getElementById('needsList').innerHTML = items.map((item, index) => `<div class="rank-item">${severity(item.severity)}<h3>${index + 1}. ${esc(item.title)}</h3><p>${esc(item.description)}</p>${chips(item.evidence)}</div>`).join('');
+    }
+    function renderOpportunityMap(items) {
+      const max = Math.max(1, ...items.map(evidenceCount));
+      document.getElementById('opportunityMap').innerHTML = items.map(item => `<div class="bar-row"><header><strong>${esc(item.title)}</strong>${severity(item.severity)}</header><div class="bar"><i style="width:${Math.max(8, evidenceCount(item) / max * 100)}%"></i></div><small>${evidenceCount(item)} evidence items</small></div>`).join('');
     }
     function renderIdeas(items) {
-      document.getElementById('ideas').innerHTML = items.map(item => `<article class="idea-card">${severity(item.severity)}<h3>${esc(item.title)}</h3><p class="hook">${esc(item.hook)}</p><div class="need"><strong>Audience need</strong><p>${esc(item.audience_need)}</p></div>${chips(item.evidence)}</article>`).join('');
+      document.getElementById('ideasList').innerHTML = items.map(item => `<article class="idea-card">${severity(item.severity)}<h3>${esc(item.title)}</h3><p class="hook">${esc(item.hook)}</p><div class="need"><strong>Audience need</strong><p>${esc(item.audience_need)}</p></div>${chips(item.evidence)}</article>`).join('');
     }
     function renderStories(items) {
       document.getElementById('stories').innerHTML = items.map(item => `<article class="story-card">${severity(item.severity)}<h3>${esc(item.title)}</h3><p>${esc(item.description)}</p>${chips(item.evidence)}</article>`).join('');
