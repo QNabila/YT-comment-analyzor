@@ -131,6 +131,8 @@ The dashboard should be read-only, unauthenticated, and backed by SQLite plus th
 For Vercel deployment, the dashboard must run as a read-only hosted view:
 
 - Root `app.py` must expose a FastAPI `app` so Vercel can serve `/`.
+- `vercel.json` must explicitly route all requests to `app.py`; do not rewrite to `/` because that can bypass the Python function and produce Vercel `404: NOT_FOUND`.
+- `requirements.txt` must include the dashboard runtime dependencies for Vercel.
 - Hosted mode must read from committed `reports/*_audience_report.json`.
 - Hosted mode must not require `.env`, `YOUTUBE_API_KEY`, SQLite, or `data/`.
 - Static dashboard assets should live in `public/`.

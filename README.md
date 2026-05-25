@@ -101,6 +101,8 @@ Vercel is only for the read-only dashboard. The YouTube fetch, analysis, PDF gen
 Deployment uses:
 
 - `app.py` as the FastAPI entrypoint Vercel can discover.
+- `vercel.json` to explicitly route all requests to the Python function.
+- `requirements.txt` so Vercel installs the dashboard runtime dependencies.
 - `reports/*_audience_report.json` as the hosted dashboard data source.
 - `public/research_mark.png` as the dashboard header asset.
 

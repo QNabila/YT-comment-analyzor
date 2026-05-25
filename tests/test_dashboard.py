@@ -112,3 +112,9 @@ def test_vercel_mode_missing_json_empty_state(tmp_path):
     missing = client.get("/api/report?channel=missing")
     assert missing.status_code == 404
     assert "No report JSON found" in missing.json()["message"]
+
+
+def test_vercel_config_routes_to_python_function():
+    config = json.loads((__import__("pathlib").Path(__file__).parents[1] / "vercel.json").read_text(encoding="utf-8"))
+    assert config["builds"] == [{"src": "app.py", "use": "@vercel/python"}]
+    assert config["routes"] == [{"src": "/(.*)", "dest": "app.py"}]
