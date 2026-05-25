@@ -171,8 +171,8 @@ def _dashboard_html(channels: list[dict[str, str]]) -> str:
       <div class="brand-icon"><img src="/static/research_mark.png" alt=""></div>
       <div>
         <p class="eyebrow">Mental Health Audience Research</p>
-        <h1>Audience Needs Lab</h1>
-        <p>Evidence-backed insight into what viewers are struggling with, what they trust, and what content they still need.</p>
+        <h1>Creator Care Map</h1>
+        <p>A practical read on what viewers are carrying, where they feel stuck, and what content could help without guessing.</p>
       </div>
     </div>
     <div class="hero-side">
@@ -186,34 +186,34 @@ def _dashboard_html(channels: list[dict[str, str]]) -> str:
 
   <main>
     <nav class="tabs" aria-label="Dashboard sections">
-      <a href="#overview">Overview</a>
-      <a href="#audience">Audience</a>
-      <a href="#needs">Needs</a>
-      <a href="#ideas">Ideas</a>
+      <a href="#overview">Care Map</a>
+      <a href="#audience">Who Needs Help</a>
+      <a href="#needs">Unmet Needs</a>
+      <a href="#ideas">Next Videos</a>
       <a href="#evidence">Evidence</a>
     </nav>
     <section id="emptyState" class="empty" hidden></section>
     <section id="overview" class="metric-grid"></section>
     <section class="analysis-row">
       <article class="panel chart-panel">
-        <div class="section-head"><p>Hidden Audience Patterns</p><h2>Need and struggle mix</h2></div>
+        <div class="section-head"><p>Audience Distress Map</p><h2>What viewers are carrying</h2></div>
         <div id="signalMix" class="category-chart"></div>
       </article>
       <article class="panel what-panel">
-        <div class="section-head"><p>Creator Briefing</p><h2>What YouTube analytics misses</h2></div>
+        <div class="section-head"><p>Psychologist's Read</p><h2>What deserves care</h2></div>
         <div id="whatThisMeans" class="meaning-copy"></div>
       </article>
     </section>
     <section class="dashboard-grid">
-      <article id="audience" class="panel wide"><div class="section-head"><p>Audience</p><h2>Segment breakdown</h2></div><div id="segments" class="card-grid"></div></article>
-      <article class="panel"><div class="section-head"><p>Emotional Temperature</p><h2>Emotional states</h2></div><div id="emotions" class="stack-list"></div></article>
-      <article class="panel"><div class="section-head"><p>Volume</p><h2>Comment-rich videos</h2></div><div id="videoVolume" class="bar-list"></div></article>
-      <article id="needs" class="panel wide"><div class="section-head"><p>Needs</p><h2>Top unmet needs</h2></div><div id="needsList" class="rank-list"></div></article>
-      <article class="panel"><div class="section-head"><p>Content Gaps</p><h2>Blind spot priority</h2></div><div id="opportunityMap" class="stack-list"></div></article>
-      <article id="ideas" class="panel wide"><div class="section-head"><p>Strategy</p><h2>Evidence-grounded video ideas</h2></div><div id="ideasList" class="idea-grid"></div></article>
-      <article class="panel"><div class="section-head"><p>Stories</p><h2>High-signal viewers</h2></div><div id="stories" class="story-list"></div></article>
-      <article class="panel"><div class="section-head"><p>Inbox</p><h2>Direct requests</h2></div><div id="requests" class="table-wrap"></div></article>
-      <article id="evidence" class="panel wide"><div class="section-head"><p>Blind Spots</p><h2>Content gaps to address</h2></div><div id="blindSpots" class="card-grid"></div></article>
+      <article id="audience" class="panel wide"><div class="section-head"><p>Who Needs Help</p><h2>Viewer struggle segments</h2></div><div id="segments" class="card-grid"></div></article>
+      <article class="panel"><div class="section-head"><p>Emotional Temperature</p><h2>How intense it feels</h2></div><div id="emotions" class="stack-list"></div></article>
+      <article class="panel"><div class="section-head"><p>Where Signals Appear</p><h2>Comment-rich videos</h2></div><div id="videoVolume" class="bar-list"></div></article>
+      <article id="needs" class="panel wide"><div class="section-head"><p>Unanswered Pain Points</p><h2>Top unmet needs</h2></div><div id="needsList" class="rank-list"></div></article>
+      <article class="panel"><div class="section-head"><p>Care Priority</p><h2>Blind spots to handle gently</h2></div><div id="opportunityMap" class="stack-list"></div></article>
+      <article id="ideas" class="panel wide"><div class="section-head"><p>Helpful Next Content</p><h2>Evidence-grounded video ideas</h2></div><div id="ideasList" class="idea-grid"></div></article>
+      <article class="panel"><div class="section-head"><p>Lived Experience</p><h2>High-signal viewer stories</h2></div><div id="stories" class="story-list"></div></article>
+      <article class="panel"><div class="section-head"><p>Explicit Asks</p><h2>Direct requests inbox</h2></div><div id="requests" class="table-wrap"></div></article>
+      <article id="evidence" class="panel wide"><div class="section-head"><p>Missing Support</p><h2>Content blind spots</h2></div><div id="blindSpots" class="card-grid"></div></article>
     </section>
   </main>
   <script>{_dashboard_js()}</script>
@@ -377,7 +377,7 @@ def _dashboard_js() -> str:
       const metrics = report.metrics || {};
       document.getElementById('statusMetrics').innerHTML = [
         ['Evidence comments', (report.evidence_appendix || []).length],
-        ['Trust signals', countEvidence(report.trust_signals || [])],
+        ['Trust + return', countEvidence(report.trust_signals || []) + countEvidence(report.loyalty_signals || [])],
         ['Sample window', `${metrics.sample_start || 'n/a'} → ${metrics.sample_end || 'n/a'}`],
       ].map(([label, value]) => `<div class="status-card"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`).join('');
     }
@@ -385,11 +385,12 @@ def _dashboard_js() -> str:
       const metrics = report.metrics || {};
       const topNeed = topByEvidence(report.unmet_needs || []);
       const topSegment = topByEvidence(report.audience_segments || []);
+      const trustAndLoyalty = countEvidence(report.trust_signals || []) + countEvidence(report.loyalty_signals || []);
       document.getElementById('overview').innerHTML = [
-        ['Comments analyzed', metrics.comments_analyzed, `${metrics.videos_fetched || 0} recent videos represented in this audience sample.`],
-        ['Urgent emotional signals', metrics.urgent_signals, `Crisis-adjacent, shame-loaded, or low-support comments that need careful creator attention.`],
-        ['Strongest unmet need', topNeed ? topNeed.title : 'n/a', topNeed ? `${evidenceCount(topNeed)} comments point to a topic viewers still need explained.` : 'No repeated need found yet.'],
-        ['Primary viewer struggle', topSegment ? topSegment.title : 'n/a', topSegment ? `${evidenceCount(topSegment)} comments reveal this audience segment.` : 'No dominant struggle segment found yet.'],
+        ['Audience sample', metrics.comments_analyzed, `${metrics.videos_fetched || 0} recent videos represented. This is the evidence base, not a vanity metric.`],
+        ['Care alerts', metrics.urgent_signals, `Comments with crisis-adjacent, shame-loaded, or low-support language that need gentle framing.`],
+        ['Main unmet need', topNeed ? topNeed.title : 'n/a', topNeed ? `${evidenceCount(topNeed)} comments point to something viewers still need explained.` : 'No repeated need found yet.'],
+        ['Trust and return', trustAndLoyalty, `Signals that viewers may be using this creator as a continuing support resource.`],
       ].map(([label, value, note]) => `<div class="metric"><span>${esc(label)}</span><strong>${esc(value)}</strong><p>${esc(note)}</p></div>`).join('');
     }
     function renderSignalMix(report) {
@@ -411,11 +412,11 @@ def _dashboard_js() -> str:
       const stigma = topByEvidence(report.stigma_signals || {});
       const loyalty = topByEvidence(report.loyalty_signals || {});
       document.getElementById('whatThisMeans').innerHTML = `
-        <p>${topNeed ? `Viewers are not just engaging; they are repeatedly asking for help with <b>${esc(topNeed.title)}</b>. This is a clearer content signal than views or likes.` : 'The current sample does not show a dominant unmet need yet.'}</p>
-        <p>${stigma ? `<b>${esc(stigma.title)}</b> shows where the audience may be carrying shame, fear, or social risk. This should shape tone, wording, and safety disclaimers.` : 'No high-confidence stigma pattern is currently visible.'}</p>
-        <p>${topBlindSpot ? `<b>${esc(topBlindSpot.title)}</b> is the strongest content blind spot: commenters are revealing the need before the channel has fully addressed it.` : 'No major content blind spot is currently above the evidence threshold.'}</p>
-        <p>${trust ? `Trust is part of the product: comments suggest the creator wins through <b>${esc(trust.description).toLowerCase()}</b>` : ''} ${loyalty ? `Loyalty signals show some viewers treat the channel as an ongoing resource, not a one-off video.` : ''}</p>
-        <div class="action-row"><span class="action-button">Build from unmet needs</span><span class="action-button">Protect high-risk viewers</span></div>
+        <p>${topNeed ? `The audience is showing a repeated need for <b>${esc(topNeed.title)}</b>. As a creator, I would treat this as a request for containment and practical steps, not just another topic idea.` : 'The current sample does not show a dominant unmet need yet.'}</p>
+        <p>${stigma ? `<b>${esc(stigma.title)}</b> is the area to handle with the most care. The wording should reduce shame and make viewers feel less alone before offering advice.` : 'No high-confidence stigma pattern is currently visible.'}</p>
+        <p>${topBlindSpot ? `<b>${esc(topBlindSpot.title)}</b> is the clearest blind spot. The audience is already revealing this gap in comments, which normal analytics would miss.` : 'No major content blind spot is currently above the evidence threshold.'}</p>
+        <p>${trust ? `Trust appears connected to <b>${esc(trust.description).toLowerCase()}</b>` : ''} ${loyalty ? `Return signals suggest some viewers are using the channel as a repeat support tool, so reusable frameworks and reminders are likely valuable.` : ''}</p>
+        <div class="action-row"><span class="action-button">Create a safe explainer</span><span class="action-button">Turn comments into care prompts</span></div>
       `;
     }
     function renderCards(id, items) {
