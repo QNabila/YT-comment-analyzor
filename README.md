@@ -93,3 +93,24 @@ python3 -m yt_audience_report.dashboard --db-path data/yt-audience-report.sqlite
 Open `http://127.0.0.1:8000`.
 
 The dashboard is read-only. It loads channels from SQLite, reads the latest generated report JSON for the selected channel, and visualizes audience segments, emotional temperature, unmet needs, blind spots, video ideas, high-signal stories, direct requests, and comment volume per video.
+
+## Deploy The Read-Only Dashboard To Vercel
+
+Vercel is only for the read-only dashboard. The YouTube fetch, analysis, PDF generation, Excel generation, and SQLite database stay local.
+
+Deployment uses:
+
+- `app.py` as the FastAPI entrypoint Vercel can discover.
+- `reports/*_audience_report.json` as the hosted dashboard data source.
+- `public/research_mark.png` as the dashboard header asset.
+
+Before deploying, generate and commit a report JSON:
+
+```bash
+python3 main.py --channel @somecreator --no-fetch
+git add reports/*_audience_report.json
+git commit -m "Add latest dashboard report data"
+git push
+```
+
+Do not deploy `.env` or `data/`. They are intentionally ignored.

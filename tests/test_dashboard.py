@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import json
 
+import app as vercel_entrypoint
+from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
-from yt_audience_report.dashboard import create_app
+from yt_audience_report.dashboard import create_app, create_vercel_app
 from yt_audience_report.report import build_report, render_report_json
 from yt_audience_report.storage.sqlite import SQLiteStore
 
@@ -62,3 +64,51 @@ def test_dashboard_report_and_comment_volume(tmp_path):
     assert volume.status_code == 200
     assert volume.json()["videos"][0]["comments"] == 2
     store.close()
+
+
+def test_vercel_entrypoint_exports_fastapi_app():
+    assert isinstance(vercel_entrypoint.app, FastAPI)
+
+
+def test_vercel_mode_uses_report_json_without_sqlite(tmp_path):
+    store = _seed_store(tmp_path)
+    report = build_report(store.conn, "UC123", max_comments=20)
+    reports_dir = tmp_path / "reports"
+    render_report_json(report, reports_dir / "pocketpsych_2026-05-25_audience_report.json")
+    store.close()
+
+    app = create_vercel_app(reports_dir=reports_dir, public_dir=tmp_path / "public")
+    client = TestClient(app)
+
+    html = client.get("/")
+    assert html.status_code == 200
+    assert "Creator Care Map" in html.text
+
+    channels = client.get("/api/channels")
+    assert channels.status_code == 200
+    assert channels.json()["channels"][0]["handle"] == "pocketpsych"
+
+    report_response = client.get("/api/report?channel=@pocketpsych")
+    assert report_response.status_code == 200
+    assert report_response.json()["report"]["channel"]["id"] == "UC123"
+
+    volume = client.get("/api/comment-volume?channel=pocketpsych")
+    assert volume.status_code == 200
+    assert volume.json()["videos"][0]["comments"] >= 1
+
+
+def test_vercel_mode_missing_json_empty_state(tmp_path):
+    app = create_vercel_app(reports_dir=tmp_path / "reports", public_dir=tmp_path / "public")
+    client = TestClient(app)
+
+    html = client.get("/")
+    assert html.status_code == 200
+    assert "No report JSON found" in html.text
+
+    channels = client.get("/api/channels")
+    assert channels.status_code == 200
+    assert channels.json()["channels"] == []
+
+    missing = client.get("/api/report?channel=missing")
+    assert missing.status_code == 404
+    assert "No report JSON found" in missing.json()["message"]

@@ -57,6 +57,58 @@ def create_app(db_path: str | Path = "data/yt-audience-report.sqlite3", reports_
     return app
 
 
+def create_vercel_app(reports_dir: str | Path = "reports", public_dir: str | Path = "public") -> FastAPI:
+    app = FastAPI(title="yt-audience-report dashboard")
+    state = {"reports_dir": Path(reports_dir)}
+    public_path = Path(public_dir)
+    if public_path.exists():
+        app.mount("/public", StaticFiles(directory=public_path), name="public")
+
+    @app.get("/", response_class=HTMLResponse)
+    def index() -> str:
+        return _dashboard_html(_list_report_channels(state["reports_dir"]), asset_path="/public/research_mark.png", empty_mode="vercel")
+
+    @app.get("/api/channels")
+    def channels() -> JSONResponse:
+        return JSONResponse({"channels": _list_report_channels(state["reports_dir"])})
+
+    @app.get("/api/report")
+    def report(channel: str = Query(..., min_length=1)) -> JSONResponse:
+        channel_row = _resolve_report_channel(state["reports_dir"], channel)
+        if not channel_row:
+            return JSONResponse(
+                {
+                    "status": "missing_report",
+                    "message": "No report JSON found. Run the local pipeline and commit the generated JSON report.",
+                },
+                status_code=404,
+            )
+        report_path = _latest_report_json(state["reports_dir"], channel_row)
+        if not report_path:
+            return JSONResponse(
+                {
+                    "status": "missing_report",
+                    "channel": channel_row,
+                    "message": "No report JSON found. Run the local pipeline and commit the generated JSON report.",
+                },
+                status_code=404,
+            )
+        return JSONResponse({"status": "ok", "report": json.loads(report_path.read_text(encoding="utf-8"))})
+
+    @app.get("/api/comment-volume")
+    def comment_volume(channel: str = Query(..., min_length=1)) -> JSONResponse:
+        channel_row = _resolve_report_channel(state["reports_dir"], channel)
+        if not channel_row:
+            return JSONResponse({"channel": None, "videos": []})
+        report_path = _latest_report_json(state["reports_dir"], channel_row)
+        if not report_path:
+            return JSONResponse({"channel": channel_row, "videos": []})
+        report_data = json.loads(report_path.read_text(encoding="utf-8"))
+        return JSONResponse({"channel": channel_row, "videos": report_data.get("video_counts", [])})
+
+    return app
+
+
 def _connect(db_path: Path) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
@@ -128,6 +180,38 @@ def _latest_report_json(reports_dir: Path, channel: dict[str, str]) -> Path | No
     return max(candidates, key=lambda path: path.stat().st_mtime) if candidates else None
 
 
+def _list_report_channels(reports_dir: Path) -> list[dict[str, str]]:
+    if not reports_dir.exists():
+        return []
+    channels: dict[str, dict[str, str]] = {}
+    for path in sorted(reports_dir.glob("*_audience_report.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        channel = data.get("channel", {})
+        handle = str(channel.get("handle") or channel.get("id") or "").lstrip("@")
+        if not handle:
+            continue
+        channels[handle] = {
+            "channel_id": str(channel.get("id") or handle),
+            "handle": handle,
+            "title": str(channel.get("title") or handle),
+            "slug": str(channel.get("slug") or _slug(handle)),
+        }
+    return list(channels.values())
+
+
+def _resolve_report_channel(reports_dir: Path, value: str) -> dict[str, str] | None:
+    cleaned = _normalize_channel_input(value)
+    for channel in _list_report_channels(reports_dir):
+        if cleaned in {channel["channel_id"], channel["handle"], channel["title"], channel["slug"]}:
+            return channel
+        if cleaned.lower() in {channel["channel_id"].lower(), channel["handle"].lower(), channel["title"].lower(), channel["slug"].lower()}:
+            return channel
+    return None
+
+
 def _channel_dict(row: sqlite3.Row) -> dict[str, str]:
     return {
         "channel_id": row["channel_id"],
@@ -151,8 +235,9 @@ def _slug(value: str) -> str:
     return value.strip("_")
 
 
-def _dashboard_html(channels: list[dict[str, str]]) -> str:
+def _dashboard_html(channels: list[dict[str, str]], asset_path: str = "/static/research_mark.png", empty_mode: str = "local") -> str:
     initial_channel = channels[0]["handle"] if channels else ""
+    empty_message = "No report JSON found. Run the local pipeline and commit the generated JSON report." if empty_mode == "vercel" else "No channels found in SQLite yet."
     channel_options = "".join(
         f"<option value='{escape(channel['handle'])}'>{escape(channel['title'])} (@{escape(channel['handle'])})</option>"
         for channel in channels
@@ -165,10 +250,10 @@ def _dashboard_html(channels: list[dict[str, str]]) -> str:
   <title>yt-audience-report dashboard</title>
   <style>{_dashboard_css()}</style>
 </head>
-<body data-initial-channel="{escape(initial_channel)}">
+<body data-initial-channel="{escape(initial_channel)}" data-empty-message="{escape(empty_message)}">
   <header class="hero">
     <div class="brand-lockup">
-      <div class="brand-icon"><img src="/static/research_mark.png" alt=""></div>
+      <div class="brand-icon"><img src="{escape(asset_path)}" alt=""></div>
       <div>
         <p class="eyebrow">Mental Health Audience Research</p>
         <h1>Creator Care Map</h1>
@@ -329,7 +414,7 @@ def _dashboard_js() -> str:
     const evidenceCount = item => item.evidence_count || (item.evidence ? item.evidence.length : 0);
     async function loadDashboard(channel) {
       if (!channel) {
-        showEmpty('No channels found in SQLite yet.');
+        showEmpty(document.body.dataset.emptyMessage || 'No dashboard data found.');
         return;
       }
       const [reportRes, volumeRes] = await Promise.all([

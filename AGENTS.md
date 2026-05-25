@@ -128,6 +128,14 @@ python -m yt_audience_report.dashboard --db-path data/yt-audience-report.sqlite3
 
 The dashboard should be read-only, unauthenticated, and backed by SQLite plus the generated report JSON. It must not fetch YouTube data during startup. It should show audience segments, emotional temperature, unmet needs, content blind spots, video ideas, high-signal viewer stories, direct requests, and comment volume per video.
 
+For Vercel deployment, the dashboard must run as a read-only hosted view:
+
+- Root `app.py` must expose a FastAPI `app` so Vercel can serve `/`.
+- Hosted mode must read from committed `reports/*_audience_report.json`.
+- Hosted mode must not require `.env`, `YOUTUBE_API_KEY`, SQLite, or `data/`.
+- Static dashboard assets should live in `public/`.
+- Local fetching, analysis, PDF generation, Excel generation, and scheduling remain local workflows.
+
 ## Evidence Standard
 
 Every substantive insight must cite comment IDs.
