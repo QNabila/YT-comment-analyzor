@@ -24,5 +24,8 @@ dev = [
 [project.scripts]
 yt-audience-report = "yt_audience_report.cli:app"
 
+[tool.setuptools]
+packages = ["yt_audience_report", "yt_audience_report.fetch", "yt_audience_report.storage"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]

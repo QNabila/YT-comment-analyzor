@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import tomllib
 
 import app as vercel_entrypoint
 from fastapi import FastAPI
@@ -118,3 +119,12 @@ def test_vercel_config_routes_to_python_function():
     config = json.loads((__import__("pathlib").Path(__file__).parents[1] / "vercel.json").read_text(encoding="utf-8"))
     assert config["builds"] == [{"src": "app.py", "use": "@vercel/python"}]
     assert config["routes"] == [{"src": "/(.*)", "dest": "app.py"}]
+
+
+def test_setuptools_package_discovery_is_explicit():
+    config = tomllib.loads((__import__("pathlib").Path(__file__).parents[1] / "pyproject.toml").read_text(encoding="utf-8"))
+    assert config["tool"]["setuptools"]["packages"] == [
+        "yt_audience_report",
+        "yt_audience_report.fetch",
+        "yt_audience_report.storage",
+    ]
