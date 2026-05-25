@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yt-audience-report"
+version = "0.1.0"
+description = "Local YouTube audience comment fetcher and report pipeline."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "python-dotenv>=1.0.1",
+    "requests>=2.32.0",
+    "typer>=0.12.0",
+    "uvicorn>=0.30.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+yt-audience-report = "yt_audience_report.cli:app"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
