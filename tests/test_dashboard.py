@@ -54,6 +54,8 @@ def test_dashboard_report_and_comment_volume(tmp_path):
     html = client.get("/")
     assert html.status_code == 200
     assert "Creator Care Map" in html.text
+    assert "Comment evidence" in html.text
+    assert "Open the evidence appendix for the full comment context." in html.text
 
     report_response = client.get("/api/report?channel=pocketpsych")
     assert report_response.status_code == 200

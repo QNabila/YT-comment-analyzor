@@ -310,14 +310,15 @@ def _dashboard_html(channels: list[dict[str, str]], asset_path: str = "/static/r
 def _brand_mark_svg() -> str:
     return """
       <svg viewBox="0 0 96 96" role="img" aria-label="yt-audience-report logo">
-        <rect x="5" y="5" width="86" height="86" rx="18" fill="var(--card)"/>
-        <path d="M35 28c-9 0-16 7-16 16 0 7 4 13 10 15v9l10-8h7c9 0 16-7 16-16s-7-16-16-16H35z" fill="var(--soft-panel)" stroke="var(--deep-teal)" stroke-width="4" stroke-linejoin="round"/>
-        <path d="M55 38h7c8 0 15 6 15 14s-7 14-15 14h-3l-9 7v-8c-5-2-9-7-9-13" fill="none" stroke="var(--clay)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M36 42c4-8 16-8 20 0" fill="none" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/>
-        <path d="M32 51h25" stroke="var(--deep-teal)" stroke-width="4" stroke-linecap="round"/>
-        <circle cx="39" cy="40" r="3" fill="var(--high)"/>
-        <circle cx="51" cy="40" r="3" fill="var(--high)"/>
-        <path d="M68 30v10M63 35h10" stroke="var(--lavender)" stroke-width="4" stroke-linecap="round"/>
+        <rect x="6" y="6" width="84" height="84" rx="16" fill="var(--card)"/>
+        <circle cx="48" cy="48" r="34" fill="var(--soft-panel)" stroke="var(--border)" stroke-width="2"/>
+        <path d="M24 30h31c8 0 14 6 14 14s-6 14-14 14H43L29 69V58h-5c-8 0-14-6-14-14s6-14 14-14z" fill="var(--card)" stroke="var(--deep-teal)" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M29 42h24M29 50h15" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M48 67l10-10 8 5 13-18" fill="none" stroke="var(--clay)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="48" cy="67" r="4" fill="var(--lavender)"/>
+        <circle cx="58" cy="57" r="4" fill="var(--olive)"/>
+        <circle cx="66" cy="62" r="4" fill="var(--blue-gray)"/>
+        <circle cx="79" cy="44" r="4" fill="var(--clay)"/>
       </svg>
     """
 
@@ -375,7 +376,11 @@ def _dashboard_css() -> str:
     .severity-high {{ background: var(--high); }}
     .severity-medium {{ background: var(--medium); }}
     .severity-low {{ background: var(--low); }}
-    .evidence {{ margin-top: 12px; }}
+    .evidence {{ display: grid; gap: 8px; margin-top: 12px; }}
+    .evidence-card {{ background: var(--soft-panel); border: 1px solid var(--border); border-radius: 6px; padding: 10px; }}
+    .evidence-label {{ color: var(--deep-teal); display: block; font-size: 10px; font-weight: 700; letter-spacing: .06em; margin-bottom: 5px; text-transform: uppercase; }}
+    .evidence-card p {{ color: var(--ink); font-size: 13px; line-height: 1.35; margin: 0 0 7px; }}
+    .evidence-meta {{ color: var(--muted); display: block; font-size: 11px; line-height: 1.35; overflow-wrap: anywhere; }}
     code {{ background: var(--soft-panel); border-radius: 4px; color: var(--deep-teal); display: inline-block; font-size: 10px; margin: 2px 3px 2px 0; padding: 3px 5px; }}
     .stack-list, .bar-list, .rank-list, .story-list {{ display: grid; gap: 12px; }}
     .category-chart {{ display: grid; gap: 13px; padding-top: 6px; }}
@@ -425,7 +430,19 @@ def _dashboard_js() -> str:
     const select = document.getElementById('channelSelect');
     const initial = document.body.dataset.initialChannel;
     const esc = value => String(value ?? '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-    const chips = evidence => `<div class="evidence">${(evidence || []).slice(0, 4).map(item => `<code>${esc(item.comment_id)}</code>`).join('')}</div>`;
+    const short = (value, limit = 150) => {
+      const text = String(value ?? '').replace(/\\s+/g, ' ').trim();
+      return text.length > limit ? `${text.slice(0, limit - 1)}…` : text;
+    };
+    const chips = evidence => {
+      const items = (evidence || []).slice(0, 3);
+      if (!items.length) return '';
+      return `<div class="evidence">${items.map(item => {
+        const quote = short(item.text || 'Open the evidence appendix for the full comment context.');
+        const video = short(item.video_title || 'Unknown video', 72);
+        return `<div class="evidence-card"><span class="evidence-label">Comment evidence</span><p>“${esc(quote)}”</p><span class="evidence-meta">${esc(video)} · ID ${esc(item.comment_id)}</span></div>`;
+      }).join('')}</div>`;
+    };
     const severity = value => `<span class="severity severity-${esc(value || 'low')}">${esc(value || 'low')}</span>`;
     const evidenceCount = item => item.evidence_count || (item.evidence ? item.evidence.length : 0);
     async function loadDashboard(channel) {
