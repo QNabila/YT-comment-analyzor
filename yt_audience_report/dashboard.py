@@ -311,14 +311,11 @@ def _brand_mark_svg() -> str:
     return """
       <svg viewBox="0 0 96 96" role="img" aria-label="yt-audience-report logo">
         <rect x="6" y="6" width="84" height="84" rx="16" fill="var(--card)"/>
-        <circle cx="48" cy="48" r="34" fill="var(--soft-panel)" stroke="var(--border)" stroke-width="2"/>
-        <path d="M24 30h31c8 0 14 6 14 14s-6 14-14 14H43L29 69V58h-5c-8 0-14-6-14-14s6-14 14-14z" fill="var(--card)" stroke="var(--deep-teal)" stroke-width="4" stroke-linejoin="round"/>
-        <path d="M29 42h24M29 50h15" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/>
-        <path d="M48 67l10-10 8 5 13-18" fill="none" stroke="var(--clay)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-        <circle cx="48" cy="67" r="4" fill="var(--lavender)"/>
-        <circle cx="58" cy="57" r="4" fill="var(--olive)"/>
-        <circle cx="66" cy="62" r="4" fill="var(--blue-gray)"/>
-        <circle cx="79" cy="44" r="4" fill="var(--clay)"/>
+        <rect x="18" y="18" width="60" height="60" rx="9" fill="var(--soft-panel)" stroke="var(--deep-teal)" stroke-width="4"/>
+        <text x="48" y="37" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="var(--deep-teal)">YT</text>
+        <path d="M29 49h20M29 57h14M29 65h22" stroke="var(--sage)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M56 66V53M65 66V45M74 66V57" stroke="var(--clay)" stroke-width="5" stroke-linecap="round"/>
+        <path d="M55 72h22" stroke="var(--deep-teal)" stroke-width="3" stroke-linecap="round"/>
       </svg>
     """
 
