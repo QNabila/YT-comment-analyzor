@@ -1,0 +1,2428 @@
+{
+  "channel": {
+    "id": "UCzaGt7vsbheyhvCLlLcW5OQ",
+    "title": "Millie | The Pocket Psychologist ",
+    "handle": "the.pocket.psychologist",
+    "slug": "the_pocket_psychologist"
+  },
+  "generated_date": "2026-05-31",
+  "metrics": {
+    "total_comments_stored": 401,
+    "comments_analyzed": 200,
+    "videos_fetched": 32,
+    "replies_stored": 50,
+    "urgent_signals": 6,
+    "sample_start": "2026-04-27",
+    "sample_end": "2026-05-31"
+  },
+  "core_profile": [
+    {
+      "title": "Primary audience",
+      "description": "Adults seeking practical mental health tools for anxiety, regulation, habits, fatigue, self-worth, and support gaps. Life-stage conclusions should be treated as evidence signals, not demographics.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugw7Zm-9hZqgvXxT5TJ4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T07:44:53Z",
+          "text": "I can change the glass but the rest? I have none of the above...",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity"
+          ]
+        },
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgxWkkkPU8PqWGqFXkV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-28T21:47:07Z",
+          "text": "My problem for many months is to be in negative zones, especially freeze. 😮",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Life-stage signals",
+      "description": "The clearest signals come from work, parenting/caregiving, therapy-adjacent language, limited support, and chronic health constraints.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugz4zz5cHLW1s8atne54AaABAg",
+          "video_title": "I'm a psychologist. If you're a people pleaser, here's what's actually happening… 🔍",
+          "published_at": "2026-05-30T13:03:56Z",
+          "text": "Well, I'm just happy to hear that from a psychologist! 😉",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgxBAPDd1nhDk7MHhNJ4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-27T02:44:41Z",
+          "text": "More rainbow lessons! 🎉 thank you! ❤",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "Ugyyb4dYHIQQtpSbNi14AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T15:41:19Z",
+          "text": "You’re my favorite YouTube Psychologist.  Quick, to the point morning insights.",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgydvIq6_HJlokA96IZ4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-08T06:26:36Z",
+          "text": "Notice how every belief just exists - without connection to relationships history or environment.\nIt's like one day you woke up & just decided to thing these things.\nIt's never there's been thousands of messages implied & explicit that taught you these lessons, reinforced the current behaviours & punished you when you even thought about choosing different! \n\nThis is why we don't teach CBT to our new grads anymore!\nIt's outdated thinking & theorising from the 1970s (ohh & the guy who made this CBT stuff up he had a great relationship with a man who raped his our step daughter & build a foundation to discredit victims of rape - maybe rethink your therapist if they choose to use the work of that man!)",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Why they choose this creator",
+      "description": "The audience appears to value concise visuals, direct language, practical tools, and professional credibility.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-23T21:36:11Z",
+          "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxyzVXiIuuyAnRjand4AaABAg",
+          "video_title": "What your Emotions are actually telling you",
+          "published_at": "2026-05-23T20:25:26Z",
+          "text": "These have helped me SO much, thank you for showing us this in a colourful, clear and concise way. Life changing stuff!",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "Ugyyb4dYHIQQtpSbNi14AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T15:41:19Z",
+          "text": "You’re my favorite YouTube Psychologist.  Quick, to the point morning insights.",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgxY9oAGvz2g27L0XQR4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-10T05:41:16Z",
+          "text": "I love this, simple, easy to pinpoint the stuck point and implement an action",
+          "is_reply": false,
+          "tags": [
+            "trust"
+          ]
+        }
+      ]
+    }
+  ],
+  "audience_segments": [
+    {
+      "title": "Anxiety/fear viewers",
+      "description": "Comments reveal signals related to anxiety and fear.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "UgwLskKktk949W6XcUB4AaABAg",
+          "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+          "published_at": "2026-05-30T01:18:44Z",
+          "text": "\"Anxiety is energy. Movement gives it somewhere to go. \" Wooow. That's a lightbulb moment for me!",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear"
+          ]
+        },
+        {
+          "comment_id": "Ugz7t--7UXRVnADP2fR4AaABAg.AWi51fW6xeiAWo0CPuQiEr",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-14T22:34:45Z",
+          "text": "We control our brain.  It only outputs what is programmed.  Its like a computer.  Those fears were programmed by our environment...brain didnt just come up with them its own\n❤ To rewire...its done in the subconscious.  More than conscious knowing is usually required but some have aha moments and the brain automatically upgrades.  Most require a manual rewire.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear"
+          ]
+        },
+        {
+          "comment_id": "UgxR9dU4YgVH_U9g7Cx4AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T09:39:37Z",
+          "text": "Seems you posted this for me.. My fears are overwhelming🎉.. Thank you",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgynWsXuyRe0JzfEh-d4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T09:00:32Z",
+          "text": "Catching spirals early can be a game changer. I suggest finding music that produces the calming neurochemicals- I legitimately listened to Ellie Duhey's \"money on the dash\" on loop during a stressful move, and it was a LIFE SAVER. I wanted to watch something else while eating, and almost immediately started a spiral. Going back to what I now term the \"Good Brain Music\" stopped the spiral. \n\nI now maintain a YT playlist, adding new good music and removing mysic that no longer functions properly.",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "loyalty"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Regulation seekers",
+      "description": "Comments reveal signals related to emotional regulation.",
+      "severity": "medium",
+      "evidence_count": 3,
+      "evidence": [
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgzYH-Upnx2yjKTt4ft4AaABAg",
+          "video_title": "What your brain is ACTUALLY trying to tell you (Psychologist explains)",
+          "published_at": "2026-05-05T10:53:23Z",
+          "text": "This was a nice reminder, thank you.\nNow to remember how to ground myself 😭",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation"
+          ]
+        },
+        {
+          "comment_id": "UgwJxB74te7BPDl7Nid4AaABAg",
+          "video_title": "The best skill you can learn is how to reset fast",
+          "published_at": "2026-05-03T16:34:51Z",
+          "text": "How do you reset faster? It's a really important skill. I feel like lacking social and financial supports, and having different mental conditions can make it take longer to reset. I guess practice and building supports would help. It's just a long road that I can influence but not have total control over. I can't control other people, i can only influence them in ethical ways by working on myself.",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Neurodivergent or trauma-aware viewers",
+      "description": "Comments reveal signals related to neurodivergence.",
+      "severity": "medium",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T14:28:47Z",
+          "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Low-energy/freeze viewers",
+      "description": "Comments reveal signals related to fatigue and low capacity.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugw7Zm-9hZqgvXxT5TJ4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T07:44:53Z",
+          "text": "I can change the glass but the rest? I have none of the above...",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity"
+          ]
+        },
+        {
+          "comment_id": "UgxWkkkPU8PqWGqFXkV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-28T21:47:07Z",
+          "text": "My problem for many months is to be in negative zones, especially freeze. 😮",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity"
+          ]
+        },
+        {
+          "comment_id": "Ugx_gyOeaeQrxozD1OB4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T12:00:28Z",
+          "text": "I need this reminder every day. I suffer from autoimmune fatigue and things get away from me, then I give up, because it’s all to hard ❤ if you see this, could you like this so I can get a reminder? 🙏🏻💖 thank you and bless you 🙏🏻✨",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity",
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65Jn1SYTE",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:38Z",
+          "text": "@McGMumof3\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65FUXJxyp",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:02Z",
+          "text": "@RebeccaLynnMusic\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sleep and safety viewers",
+      "description": "Comments reveal signals related to sleep and safety.",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "Ugydolw0tGfjlp2fv_54AaABAg",
+          "video_title": "Watch this if you can't get to sleep",
+          "published_at": "2026-04-27T22:00:18Z",
+          "text": "No wonder I can’t sleep. I never feel safe.",
+          "is_reply": false,
+          "tags": [
+            "sleep and safety",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Self-worth and shame viewers",
+      "description": "Comments reveal signals related to self-worth and shame.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgxB3ey62m3ZVscLIpt4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-28T04:28:59Z",
+          "text": "This is so stupid 😂",
+          "is_reply": false,
+          "tags": [
+            "self-worth and shame",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65Jn1SYTE",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:38Z",
+          "text": "@McGMumof3\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65FUXJxyp",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:02Z",
+          "text": "@RebeccaLynnMusic\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Limited-support viewers",
+      "description": "Comments reveal signals related to limited support.",
+      "severity": "medium",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    }
+  ],
+  "emotional_temperature": [
+    {
+      "title": "Relief and gratitude",
+      "description": "Viewers describe the content as helpful, hopeful, clear, or life-changing.",
+      "severity": "low",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugw3VmSifW_2YqiSJOd4AaABAg",
+          "video_title": "4 years of therapy in 60 seconds",
+          "published_at": "2026-05-31T09:14:22Z",
+          "text": "Great advice. Thankyou",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxBAPDd1nhDk7MHhNJ4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-27T02:44:41Z",
+          "text": "More rainbow lessons! 🎉 thank you! ❤",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgyB4dX4_zBqx1mAOgF4AaABAg",
+          "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+          "published_at": "2026-05-25T22:05:00Z",
+          "text": "I find positive self talk to be Very helpful. I don't tell myself I'm calm; I say:\" I can Do this! I've Seen me do it!\" It's silly enough to invoke humor...my Fav way to calm down!!!!!",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "Ugx3oTBq_iUxLsmf7nJ4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-25T10:13:59Z",
+          "text": "Thanks for this you're an angel",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-23T21:36:11Z",
+          "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Confusion and need for examples",
+      "description": "Viewers ask what terms mean or request concrete examples.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugx7trfV73C0912mpNF4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-12T01:14:32Z",
+          "text": "please give examples of these actions, i don't understand",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugw20dMoV08Ul3q7bGt4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-09T14:27:49Z",
+          "text": "can you give us examples of good enough actions pls ??? tysm",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzoiJ-i40fszU61UFx4AaABAg",
+          "video_title": "Stop ignoring your feelings. Here’s what they are actually trying to tell you.",
+          "published_at": "2026-05-02T10:29:39Z",
+          "text": "❤thank you. I would so like to see examples of small boundaries",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxyUWrjkXqz5xTjhjB4AaABAg.AW-KS89fd0NAWI3-iPfd_Y",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:24:18Z",
+          "text": "@Angie-b3jhey can you please share more examples of your hobbies?",
+          "is_reply": true,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzAOfJl2DRPdHMxVaR4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:22:50Z",
+          "text": "What do you mean by chaging state when doomscrolling?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Overwhelm",
+      "description": "Some viewers report too much information or difficulty absorbing dense shorts.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "UgxR9dU4YgVH_U9g7Cx4AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T09:39:37Z",
+          "text": "Seems you posted this for me.. My fears are overwhelming🎉.. Thank you",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgztiVPqB0Qda04T9bB4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T07:48:40Z",
+          "text": "Great tips. I suggest splitting these into 2-3 videos. Too many chunks of information",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzVp0Cf-ufHzjlLfcN4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-04-30T20:29:04Z",
+          "text": "These are great. \nA bit of feedback... It's a lot of information. It's all useful but so much is crammed in that nothing sticks. I suggest making these shorts shorter and giving only 3-4 at once.\nThese are great, thanks for posting!",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65Jn1SYTE",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:38Z",
+          "text": "@McGMumof3\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65FUXJxyp",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:02Z",
+          "text": "@RebeccaLynnMusic\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Isolation and crisis-adjacent distress",
+      "description": "A smaller but important group mentions no support, dark thoughts, panic, or not feeling safe.",
+      "severity": "high",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "UgxR9dU4YgVH_U9g7Cx4AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T09:39:37Z",
+          "text": "Seems you posted this for me.. My fears are overwhelming🎉.. Thank you",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgyW9Uh00sdCjupeQAN4AaABAg.AW0ti_rkJ9cAWDr9fhOdBU",
+          "video_title": "How to regulate your nervous system",
+          "published_at": "2026-04-30T12:15:06Z",
+          "text": "​@vtheb1299Really? Are these the symptoms of panick attack? I didn't know.. I will look up to it.. Awareness is the half solution..Thanks for the feedback..",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgyW9Uh00sdCjupeQAN4AaABAg.AW0ti_rkJ9cAWDk40-4vdi",
+          "video_title": "How to regulate your nervous system",
+          "published_at": "2026-04-30T11:13:10Z",
+          "text": "panic attack my friend :-(((",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "urgent"
+          ]
+        }
+      ]
+    }
+  ],
+  "trust_signals": [
+    {
+      "title": "Why viewers trust this creator",
+      "description": "Viewers describe clear, concise, practical, visual, or credible delivery.",
+      "severity": "medium",
+      "evidence_count": 8,
+      "evidence": [
+        {
+          "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-23T21:36:11Z",
+          "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxyzVXiIuuyAnRjand4AaABAg",
+          "video_title": "What your Emotions are actually telling you",
+          "published_at": "2026-05-23T20:25:26Z",
+          "text": "These have helped me SO much, thank you for showing us this in a colourful, clear and concise way. Life changing stuff!",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "Ugyyb4dYHIQQtpSbNi14AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T15:41:19Z",
+          "text": "You’re my favorite YouTube Psychologist.  Quick, to the point morning insights.",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgxY9oAGvz2g27L0XQR4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-10T05:41:16Z",
+          "text": "I love this, simple, easy to pinpoint the stuck point and implement an action",
+          "is_reply": false,
+          "tags": [
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "UgwSNl1YWchL1JD3dsp4AaABAg.AWZZKxhwtmtAW_Gpe7-CcJ",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-09T05:11:27Z",
+          "text": "I was thinking of asking for a clear picture of this one as well as a previous one. These are so valuable! 😍",
+          "is_reply": true,
+          "tags": [
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "Ugyn_Wu2cVcYcQHF8ct4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-06T22:16:11Z",
+          "text": "You should sell this as a pdf. Keep the post it notes design. This is a great video!",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugypi_kiXVJBE27kG4x4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-04T01:11:41Z",
+          "text": "From a fellow Aussie ❤ I love how we are so direct and tell it like it is without all the fluff ❤ thank you!",
+          "is_reply": false,
+          "tags": [
+            "trust"
+          ]
+        }
+      ]
+    }
+  ],
+  "unmet_needs": [
+    {
+      "title": "Concrete examples of abstract tools",
+      "description": "Framework videos should be followed by applied examples.",
+      "severity": "high",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "Ugx7trfV73C0912mpNF4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-12T01:14:32Z",
+          "text": "please give examples of these actions, i don't understand",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugw20dMoV08Ul3q7bGt4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-09T14:27:49Z",
+          "text": "can you give us examples of good enough actions pls ??? tysm",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzoiJ-i40fszU61UFx4AaABAg",
+          "video_title": "Stop ignoring your feelings. Here’s what they are actually trying to tell you.",
+          "published_at": "2026-05-02T10:29:39Z",
+          "text": "❤thank you. I would so like to see examples of small boundaries",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxyUWrjkXqz5xTjhjB4AaABAg.AW-KS89fd0NAWI3-iPfd_Y",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:24:18Z",
+          "text": "@Angie-b3jhey can you please share more examples of your hobbies?",
+          "is_reply": true,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzAOfJl2DRPdHMxVaR4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:22:50Z",
+          "text": "What do you mean by chaging state when doomscrolling?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Breaking bad habits",
+      "description": "Habit content triggers explicit requests for bad-habit support.",
+      "severity": "medium",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgzmC9u6uNWidieHlAZ4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-13T17:13:15Z",
+          "text": "Thanks 🙏 can you do something on breaking bad habits please 😳",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugwpm1rfBVpwLKjpwh54AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T22:07:38Z",
+          "text": "Could you give us tips to break bad habits? Thank you!",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Neurodivergent habit-building",
+      "description": "Some viewers say standard habit advice does not fit neurodivergent minds.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T14:28:47Z",
+          "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Co-regulation without support",
+      "description": "Viewers need regulation tools when no safe person is available.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Low-capacity reset tools",
+      "description": "Some viewers need alternatives when small actions still feel impossible.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "Ugx_gyOeaeQrxozD1OB4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T12:00:28Z",
+          "text": "I need this reminder every day. I suffer from autoimmune fatigue and things get away from me, then I give up, because it’s all to hard ❤ if you see this, could you like this so I can get a reminder? 🙏🏻💖 thank you and bless you 🙏🏻✨",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity",
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgwVsTt8Q1JOpEh_WjF4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T10:20:37Z",
+          "text": "Any advice for not having any desire to do anything at all and doing even the tiniest step triggers dark thoughts...",
+          "is_reply": false,
+          "tags": [
+            "self-worth and shame",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    }
+  ],
+  "direct_requests": [
+    {
+      "title": "Direct content requests",
+      "description": "Viewers explicitly ask for explanations, examples, tips, PDFs, or follow-up topics.",
+      "severity": "medium",
+      "evidence_count": 8,
+      "evidence": [
+        {
+          "comment_id": "Ugw3VmSifW_2YqiSJOd4AaABAg",
+          "video_title": "4 years of therapy in 60 seconds",
+          "published_at": "2026-05-31T09:14:22Z",
+          "text": "Great advice. Thankyou",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxrvDnRbjY06Lcjucl4AaABAg",
+          "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+          "published_at": "2026-05-25T18:49:42Z",
+          "text": "Hey TPP is there any chance you could make a short one about how to approach failure as I am into very intense financial markets doing trading what advice could you give to traders?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-23T21:36:11Z",
+          "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugx6tMBHV4VATu5wwsl4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-20T06:43:59Z",
+          "text": "Hi, thank you for this. Do you have a PDF version of the list? I'd like to keep it pinned on my wall.",
+          "is_reply": false,
+          "tags": [
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgyXGuMfCyrR64KdI5t4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-19T12:30:48Z",
+          "text": "I need all of these brain tips!",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzmC9u6uNWidieHlAZ4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-13T17:13:15Z",
+          "text": "Thanks 🙏 can you do something on breaking bad habits please 😳",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugx7trfV73C0912mpNF4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-12T01:14:32Z",
+          "text": "please give examples of these actions, i don't understand",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugwpm1rfBVpwLKjpwh54AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T22:07:38Z",
+          "text": "Could you give us tips to break bad habits? Thank you!",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    }
+  ],
+  "stigma_signals": [
+    {
+      "title": "Stigma and shame signals",
+      "description": "Viewers reveal shame-loaded, isolating, or socially risky struggles.",
+      "severity": "high",
+      "evidence_count": 8,
+      "evidence": [
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgxB3ey62m3ZVscLIpt4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-28T04:28:59Z",
+          "text": "This is so stupid 😂",
+          "is_reply": false,
+          "tags": [
+            "self-worth and shame",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "Ugydolw0tGfjlp2fv_54AaABAg",
+          "video_title": "Watch this if you can't get to sleep",
+          "published_at": "2026-04-27T22:00:18Z",
+          "text": "No wonder I can’t sleep. I never feel safe.",
+          "is_reply": false,
+          "tags": [
+            "sleep and safety",
+            "stigma",
+            "urgent"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65Jn1SYTE",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:38Z",
+          "text": "@McGMumof3\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65FUXJxyp",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:53:02Z",
+          "text": "@RebeccaLynnMusic\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW6578d5A5J",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T11:51:54Z",
+          "text": "One thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+          "is_reply": true,
+          "tags": [
+            "anxiety and fear",
+            "fatigue and low capacity",
+            "self-worth and shame",
+            "trust",
+            "stigma"
+          ]
+        }
+      ]
+    }
+  ],
+  "high_signal_stories": [
+    {
+      "title": "Hey TPP is there any chance you could make a short one about how...",
+      "description": "Hey TPP is there any chance you could make a short one about how to approach failure as I am into very intense financial markets doing trading what advice could you give to traders?",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "UgxrvDnRbjY06Lcjucl4AaABAg",
+          "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+          "published_at": "2026-05-25T18:49:42Z",
+          "text": "Hey TPP is there any chance you could make a short one about how to approach failure as I am into very intense financial markets doing trading what advice could you give to traders?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Love the way you describe and show us complex ideas and concepts,...",
+      "description": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-23T21:36:11Z",
+          "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "This really only applies to neuro typical generally healthy no pa...",
+      "description": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hi, thank you for this. Do you have a PDF version of the list? I'...",
+      "description": "Hi, thank you for this. Do you have a PDF version of the list? I'd like to keep it pinned on my wall.",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "Ugx6tMBHV4VATu5wwsl4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-20T06:43:59Z",
+          "text": "Hi, thank you for this. Do you have a PDF version of the list? I'd like to keep it pinned on my wall.",
+          "is_reply": false,
+          "tags": [
+            "loyalty",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "This applies only to neurotypical minds. Please discuss neurodive...",
+      "description": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T14:28:47Z",
+          "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Thank you for this. Do you have any advice about what to do when...",
+      "description": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do? Thanks again. ❤",
+      "severity": "medium",
+      "evidence_count": 1,
+      "evidence": [
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        }
+      ]
+    }
+  ],
+  "loyalty_signals": [
+    {
+      "title": "Loyalty and return signals",
+      "description": "Viewers save, revisit, request reusable assets, or describe the channel as an ongoing resource.",
+      "severity": "medium",
+      "evidence_count": 8,
+      "evidence": [
+        {
+          "comment_id": "UgxOgvJpA_J5tIXqitR4AaABAg",
+          "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+          "published_at": "2026-05-27T01:57:39Z",
+          "text": "Your videos are very creative",
+          "is_reply": false,
+          "tags": [
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "UgxyzVXiIuuyAnRjand4AaABAg",
+          "video_title": "What your Emotions are actually telling you",
+          "published_at": "2026-05-23T20:25:26Z",
+          "text": "These have helped me SO much, thank you for showing us this in a colourful, clear and concise way. Life changing stuff!",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "Ugwywa3lxQXGPVBxvER4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-21T01:14:02Z",
+          "text": "Thank you so much for making it super easily screenshotable.😊❤",
+          "is_reply": false,
+          "tags": [
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "Ugx6tMBHV4VATu5wwsl4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-20T06:43:59Z",
+          "text": "Hi, thank you for this. Do you have a PDF version of the list? I'd like to keep it pinned on my wall.",
+          "is_reply": false,
+          "tags": [
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "Ugyq63gf4CBtv0YOjAJ4AaABAg",
+          "video_title": "6 Psychology Facts I Wish Everyone Knew",
+          "published_at": "2026-05-19T10:43:09Z",
+          "text": "I like your videos a lot!",
+          "is_reply": false,
+          "tags": [
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "Ugyyb4dYHIQQtpSbNi14AaABAg",
+          "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+          "published_at": "2026-05-12T15:41:19Z",
+          "text": "You’re my favorite YouTube Psychologist.  Quick, to the point morning insights.",
+          "is_reply": false,
+          "tags": [
+            "trust",
+            "loyalty"
+          ]
+        },
+        {
+          "comment_id": "Ugz9QbXAScwJINv4dLd4AaABAg",
+          "video_title": "What your brain is ACTUALLY trying to tell you (Psychologist explains)",
+          "published_at": "2026-05-10T17:45:50Z",
+          "text": "👏👏👏👏\nThis is so needed. Thank you! Keep going, please!",
+          "is_reply": false,
+          "tags": [
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgzRw30cyad_q6oUPy54AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T12:48:20Z",
+          "text": "👏🏻👏🏻👏🏻💯💯 I'm your fan.",
+          "is_reply": false,
+          "tags": [
+            "loyalty"
+          ]
+        }
+      ]
+    }
+  ],
+  "blind_spots": [
+    {
+      "title": "Neurodivergent and trauma-aware adaptations",
+      "description": "Existing frameworks need versions for viewers who do not fit standard advice.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T14:28:47Z",
+          "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "No-support regulation",
+      "description": "Relational advice needs solo alternatives.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Workplace shame and mistakes",
+      "description": "Work-related self-worth fears appear as a targeted content opportunity.",
+      "severity": "medium",
+      "evidence_count": 5,
+      "evidence": [
+        {
+          "comment_id": "UgydvIq6_HJlokA96IZ4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-08T06:26:36Z",
+          "text": "Notice how every belief just exists - without connection to relationships history or environment.\nIt's like one day you woke up & just decided to thing these things.\nIt's never there's been thousands of messages implied & explicit that taught you these lessons, reinforced the current behaviours & punished you when you even thought about choosing different! \n\nThis is why we don't teach CBT to our new grads anymore!\nIt's outdated thinking & theorising from the 1970s (ohh & the guy who made this CBT stuff up he had a great relationship with a man who raped his our step daughter & build a foundation to discredit victims of rape - maybe rethink your therapist if they choose to use the work of that man!)",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgwJxB74te7BPDl7Nid4AaABAg",
+          "video_title": "The best skill you can learn is how to reset fast",
+          "published_at": "2026-05-03T16:34:51Z",
+          "text": "How do you reset faster? It's a really important skill. I feel like lacking social and financial supports, and having different mental conditions can make it take longer to reset. I guess practice and building supports would help. It's just a long road that I can influence but not have total control over. I can't control other people, i can only influence them in ethical ways by working on myself.",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgxB3ey62m3ZVscLIpt4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-28T04:28:59Z",
+          "text": "This is so stupid 😂",
+          "is_reply": false,
+          "tags": [
+            "self-worth and shame",
+            "stigma"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doomscrolling as low-energy regulation",
+      "description": "Doomscrolling appears as a nervous-system/capacity issue, not only a habit issue.",
+      "severity": "medium",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgxPj7dNWwTHQiEmLMd4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-05T18:18:12Z",
+          "text": "I will stop doomscrolling after this short and change my state",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgzAOfJl2DRPdHMxVaR4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:22:50Z",
+          "text": "What do you mean by chaging state when doomscrolling?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    }
+  ],
+  "video_ideas": [
+    {
+      "title": "How to regulate when you have no one to co-regulate with",
+      "hook": "If everyone tells you to reach out, but no one is safe or available, start here.",
+      "audience_need": "Isolation-aware regulation tools.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T08:27:06Z",
+          "text": "How do you coregulate when you have no one and no support system??",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "limited support",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Why habits do not stick for neurodivergent brains",
+      "hook": "If you did the same thing for a year and it still never became automatic, you are not broken.",
+      "audience_need": "Neurodivergent habit-building adaptations.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+          "video_title": "The best skill you can learn for your mental health 🧠",
+          "published_at": "2026-05-22T12:33:40Z",
+          "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "trust"
+          ]
+        },
+        {
+          "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+          "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+          "published_at": "2026-05-10T14:28:47Z",
+          "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+          "is_reply": false,
+          "tags": [
+            "neurodivergence",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What to do when even the tiniest step feels impossible",
+      "hook": "When one small step triggers dark thoughts, the advice needs to change.",
+      "audience_need": "Low-capacity, crisis-adjacent activation.",
+      "severity": "high",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "Ugx_gyOeaeQrxozD1OB4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T12:00:28Z",
+          "text": "I need this reminder every day. I suffer from autoimmune fatigue and things get away from me, then I give up, because it’s all to hard ❤ if you see this, could you like this so I can get a reminder? 🙏🏻💖 thank you and bless you 🙏🏻✨",
+          "is_reply": false,
+          "tags": [
+            "fatigue and low capacity",
+            "loyalty",
+            "direct request"
+          ]
+        },
+        {
+          "comment_id": "UgwVsTt8Q1JOpEh_WjF4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-04-27T10:20:37Z",
+          "text": "Any advice for not having any desire to do anything at all and doing even the tiniest step triggers dark thoughts...",
+          "is_reply": false,
+          "tags": [
+            "self-worth and shame",
+            "direct request",
+            "stigma",
+            "urgent"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "How to stop fearing mistakes at work",
+      "hook": "If one mistake makes you feel stupid, incapable, or exposed, this is the loop to work with.",
+      "audience_need": "Workplace shame and self-worth repair.",
+      "severity": "medium",
+      "evidence_count": 4,
+      "evidence": [
+        {
+          "comment_id": "UgydvIq6_HJlokA96IZ4AaABAg",
+          "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+          "published_at": "2026-05-08T06:26:36Z",
+          "text": "Notice how every belief just exists - without connection to relationships history or environment.\nIt's like one day you woke up & just decided to thing these things.\nIt's never there's been thousands of messages implied & explicit that taught you these lessons, reinforced the current behaviours & punished you when you even thought about choosing different! \n\nThis is why we don't teach CBT to our new grads anymore!\nIt's outdated thinking & theorising from the 1970s (ohh & the guy who made this CBT stuff up he had a great relationship with a man who raped his our step daughter & build a foundation to discredit victims of rape - maybe rethink your therapist if they choose to use the work of that man!)",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+          "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+          "published_at": "2026-05-07T13:37:47Z",
+          "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+          "is_reply": false,
+          "tags": [
+            "anxiety and fear",
+            "self-worth and shame",
+            "direct request",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+          "video_title": "How To Regulate Your Emotions",
+          "published_at": "2026-05-07T13:06:52Z",
+          "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+          "is_reply": true,
+          "tags": [
+            "self-worth and shame",
+            "limited support",
+            "stigma"
+          ]
+        },
+        {
+          "comment_id": "UgwJxB74te7BPDl7Nid4AaABAg",
+          "video_title": "The best skill you can learn is how to reset fast",
+          "published_at": "2026-05-03T16:34:51Z",
+          "text": "How do you reset faster? It's a really important skill. I feel like lacking social and financial supports, and having different mental conditions can make it take longer to reset. I guess practice and building supports would help. It's just a long road that I can influence but not have total control over. I can't control other people, i can only influence them in ethical ways by working on myself.",
+          "is_reply": false,
+          "tags": [
+            "emotional regulation",
+            "direct request"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Doomscrolling is not always laziness",
+      "hook": "Sometimes you scroll because you are too wired to rest and too tired to do anything active.",
+      "audience_need": "Shame-free explanation of scrolling as stimulation/regulation.",
+      "severity": "medium",
+      "evidence_count": 2,
+      "evidence": [
+        {
+          "comment_id": "UgxPj7dNWwTHQiEmLMd4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-05T18:18:12Z",
+          "text": "I will stop doomscrolling after this short and change my state",
+          "is_reply": false,
+          "tags": []
+        },
+        {
+          "comment_id": "UgzAOfJl2DRPdHMxVaR4AaABAg",
+          "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+          "published_at": "2026-05-02T03:22:50Z",
+          "text": "What do you mean by chaging state when doomscrolling?",
+          "is_reply": false,
+          "tags": [
+            "direct request"
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence_appendix": [
+    {
+      "comment_id": "Ugw7Zm-9hZqgvXxT5TJ4AaABAg",
+      "video_title": "The best skill you can learn for your mental health 🧠",
+      "published_at": "2026-05-22T07:44:53Z",
+      "text": "I can change the glass but the rest? I have none of the above...",
+      "is_reply": false,
+      "tags": [
+        "fatigue and low capacity"
+      ]
+    },
+    {
+      "comment_id": "Ugz3iEyaKso0hh5EreV4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-05-07T13:37:47Z",
+      "text": "Thank you for this. Do you have any advice about what to do when you fear making mistakes at work, and feel as though others perceive you as stupid/incapable if you do?\nThanks again. ❤",
+      "is_reply": false,
+      "tags": [
+        "anxiety and fear",
+        "self-worth and shame",
+        "direct request",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg.AWVTcrquHrvAWVydu-KT36",
+      "video_title": "How To Regulate Your Emotions",
+      "published_at": "2026-05-07T13:06:52Z",
+      "text": "I know right. No one really wants to listen or be there. I’m met with just silence. Family and “friends” say one thing but prove by their actions that they aren’t really supportive. People don’t know how and/or just don’t care and/or are too exhausted with their own problems that they are incapable of showing up. Then you go to therapy and they just tell you to do breathing exercises and tapping when you already use those strategies. I feel yah…",
+      "is_reply": true,
+      "tags": [
+        "self-worth and shame",
+        "limited support",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "UgzHzXT3yixAjnCdgrN4AaABAg",
+      "video_title": "How To Regulate Your Emotions",
+      "published_at": "2026-05-07T08:27:06Z",
+      "text": "How do you coregulate when you have no one and no support system??",
+      "is_reply": false,
+      "tags": [
+        "emotional regulation",
+        "limited support",
+        "direct request",
+        "stigma",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgxWkkkPU8PqWGqFXkV4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-28T21:47:07Z",
+      "text": "My problem for many months is to be in negative zones, especially freeze. 😮",
+      "is_reply": false,
+      "tags": [
+        "fatigue and low capacity"
+      ]
+    },
+    {
+      "comment_id": "Ugz4zz5cHLW1s8atne54AaABAg",
+      "video_title": "I'm a psychologist. If you're a people pleaser, here's what's actually happening… 🔍",
+      "published_at": "2026-05-30T13:03:56Z",
+      "text": "Well, I'm just happy to hear that from a psychologist! 😉",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "UgxBAPDd1nhDk7MHhNJ4AaABAg",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-27T02:44:41Z",
+      "text": "More rainbow lessons! 🎉 thank you! ❤",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "Ugyyb4dYHIQQtpSbNi14AaABAg",
+      "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+      "published_at": "2026-05-12T15:41:19Z",
+      "text": "You’re my favorite YouTube Psychologist.  Quick, to the point morning insights.",
+      "is_reply": false,
+      "tags": [
+        "trust",
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "UgydvIq6_HJlokA96IZ4AaABAg",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-08T06:26:36Z",
+      "text": "Notice how every belief just exists - without connection to relationships history or environment.\nIt's like one day you woke up & just decided to thing these things.\nIt's never there's been thousands of messages implied & explicit that taught you these lessons, reinforced the current behaviours & punished you when you even thought about choosing different! \n\nThis is why we don't teach CBT to our new grads anymore!\nIt's outdated thinking & theorising from the 1970s (ohh & the guy who made this CBT stuff up he had a great relationship with a man who raped his our step daughter & build a foundation to discredit victims of rape - maybe rethink your therapist if they choose to use the work of that man!)",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "UgwfhFUztq2UEYteukB4AaABAg",
+      "video_title": "The best skill you can learn for your mental health 🧠",
+      "published_at": "2026-05-23T21:36:11Z",
+      "text": "Love the way you describe and show us complex ideas and concepts, with so much clarity. Thank you for explaining these things to us in such concise ways ❤",
+      "is_reply": false,
+      "tags": [
+        "trust",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgxyzVXiIuuyAnRjand4AaABAg",
+      "video_title": "What your Emotions are actually telling you",
+      "published_at": "2026-05-23T20:25:26Z",
+      "text": "These have helped me SO much, thank you for showing us this in a colourful, clear and concise way. Life changing stuff!",
+      "is_reply": false,
+      "tags": [
+        "trust",
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "UgyXOu3Y9vrAyxMPc0Z4AaABAg",
+      "video_title": "The best skill you can learn for your mental health 🧠",
+      "published_at": "2026-05-22T12:33:40Z",
+      "text": "This really only applies to neuro typical generally healthy no past trauma individuals. I was excited to see what kind of things you'd put out, but it's really not as accessible as you think. Disappointed, unsubscribed.",
+      "is_reply": false,
+      "tags": [
+        "neurodivergence",
+        "trust"
+      ]
+    },
+    {
+      "comment_id": "UgxY9oAGvz2g27L0XQR4AaABAg",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-10T05:41:16Z",
+      "text": "I love this, simple, easy to pinpoint the stuck point and implement an action",
+      "is_reply": false,
+      "tags": [
+        "trust"
+      ]
+    },
+    {
+      "comment_id": "UgwLskKktk949W6XcUB4AaABAg",
+      "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+      "published_at": "2026-05-30T01:18:44Z",
+      "text": "\"Anxiety is energy. Movement gives it somewhere to go. \" Wooow. That's a lightbulb moment for me!",
+      "is_reply": false,
+      "tags": [
+        "anxiety and fear"
+      ]
+    },
+    {
+      "comment_id": "Ugz7t--7UXRVnADP2fR4AaABAg.AWi51fW6xeiAWo0CPuQiEr",
+      "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+      "published_at": "2026-05-14T22:34:45Z",
+      "text": "We control our brain.  It only outputs what is programmed.  Its like a computer.  Those fears were programmed by our environment...brain didnt just come up with them its own\n❤ To rewire...its done in the subconscious.  More than conscious knowing is usually required but some have aha moments and the brain automatically upgrades.  Most require a manual rewire.",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear"
+      ]
+    },
+    {
+      "comment_id": "UgxR9dU4YgVH_U9g7Cx4AaABAg",
+      "video_title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+      "published_at": "2026-05-12T09:39:37Z",
+      "text": "Seems you posted this for me.. My fears are overwhelming🎉.. Thank you",
+      "is_reply": false,
+      "tags": [
+        "anxiety and fear",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgynWsXuyRe0JzfEh-d4AaABAg",
+      "video_title": "How To Regulate Your Emotions",
+      "published_at": "2026-05-07T09:00:32Z",
+      "text": "Catching spirals early can be a game changer. I suggest finding music that produces the calming neurochemicals- I legitimately listened to Ellie Duhey's \"money on the dash\" on loop during a stressful move, and it was a LIFE SAVER. I wanted to watch something else while eating, and almost immediately started a spiral. Going back to what I now term the \"Good Brain Music\" stopped the spiral. \n\nI now maintain a YT playlist, adding new good music and removing mysic that no longer functions properly.",
+      "is_reply": false,
+      "tags": [
+        "anxiety and fear",
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "UgzYH-Upnx2yjKTt4ft4AaABAg",
+      "video_title": "What your brain is ACTUALLY trying to tell you (Psychologist explains)",
+      "published_at": "2026-05-05T10:53:23Z",
+      "text": "This was a nice reminder, thank you.\nNow to remember how to ground myself 😭",
+      "is_reply": false,
+      "tags": [
+        "emotional regulation"
+      ]
+    },
+    {
+      "comment_id": "UgwJxB74te7BPDl7Nid4AaABAg",
+      "video_title": "The best skill you can learn is how to reset fast",
+      "published_at": "2026-05-03T16:34:51Z",
+      "text": "How do you reset faster? It's a really important skill. I feel like lacking social and financial supports, and having different mental conditions can make it take longer to reset. I guess practice and building supports would help. It's just a long road that I can influence but not have total control over. I can't control other people, i can only influence them in ethical ways by working on myself.",
+      "is_reply": false,
+      "tags": [
+        "emotional regulation",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgxAe_4_mdXeP_nTupx4AaABAg",
+      "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+      "published_at": "2026-05-10T14:28:47Z",
+      "text": "This applies only to neurotypical minds. Please discuss neurodivergent behaviour building. I have disciplined myself to do the same thing for over a year and still was unable to establish it as a habit.",
+      "is_reply": false,
+      "tags": [
+        "neurodivergence",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "Ugx_gyOeaeQrxozD1OB4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-27T12:00:28Z",
+      "text": "I need this reminder every day. I suffer from autoimmune fatigue and things get away from me, then I give up, because it’s all to hard ❤ if you see this, could you like this so I can get a reminder? 🙏🏻💖 thank you and bless you 🙏🏻✨",
+      "is_reply": false,
+      "tags": [
+        "fatigue and low capacity",
+        "loyalty",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65Jn1SYTE",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-27T11:53:38Z",
+      "text": "@McGMumof3\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear",
+        "fatigue and low capacity",
+        "self-worth and shame",
+        "trust",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW65FUXJxyp",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-27T11:53:02Z",
+      "text": "@RebeccaLynnMusic\nOne thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear",
+        "fatigue and low capacity",
+        "self-worth and shame",
+        "trust",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "Ugydolw0tGfjlp2fv_54AaABAg",
+      "video_title": "Watch this if you can't get to sleep",
+      "published_at": "2026-04-27T22:00:18Z",
+      "text": "No wonder I can’t sleep. I never feel safe.",
+      "is_reply": false,
+      "tags": [
+        "sleep and safety",
+        "stigma",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgxB3ey62m3ZVscLIpt4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-28T04:28:59Z",
+      "text": "This is so stupid 😂",
+      "is_reply": false,
+      "tags": [
+        "self-worth and shame",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "Ugw3VmSifW_2YqiSJOd4AaABAg",
+      "video_title": "4 years of therapy in 60 seconds",
+      "published_at": "2026-05-31T09:14:22Z",
+      "text": "Great advice. Thankyou",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgyB4dX4_zBqx1mAOgF4AaABAg",
+      "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+      "published_at": "2026-05-25T22:05:00Z",
+      "text": "I find positive self talk to be Very helpful. I don't tell myself I'm calm; I say:\" I can Do this! I've Seen me do it!\" It's silly enough to invoke humor...my Fav way to calm down!!!!!",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "Ugx3oTBq_iUxLsmf7nJ4AaABAg",
+      "video_title": "The best skill you can learn for your mental health 🧠",
+      "published_at": "2026-05-25T10:13:59Z",
+      "text": "Thanks for this you're an angel",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "Ugx7trfV73C0912mpNF4AaABAg",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-12T01:14:32Z",
+      "text": "please give examples of these actions, i don't understand",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "Ugw20dMoV08Ul3q7bGt4AaABAg",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-09T14:27:49Z",
+      "text": "can you give us examples of good enough actions pls ??? tysm",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzoiJ-i40fszU61UFx4AaABAg",
+      "video_title": "Stop ignoring your feelings. Here’s what they are actually trying to tell you.",
+      "published_at": "2026-05-02T10:29:39Z",
+      "text": "❤thank you. I would so like to see examples of small boundaries",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgxyUWrjkXqz5xTjhjB4AaABAg.AW-KS89fd0NAWI3-iPfd_Y",
+      "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+      "published_at": "2026-05-02T03:24:18Z",
+      "text": "@Angie-b3jhey can you please share more examples of your hobbies?",
+      "is_reply": true,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzAOfJl2DRPdHMxVaR4AaABAg",
+      "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+      "published_at": "2026-05-02T03:22:50Z",
+      "text": "What do you mean by chaging state when doomscrolling?",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgztiVPqB0Qda04T9bB4AaABAg",
+      "video_title": "How To Regulate Your Emotions",
+      "published_at": "2026-05-07T07:48:40Z",
+      "text": "Great tips. I suggest splitting these into 2-3 videos. Too many chunks of information",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzVp0Cf-ufHzjlLfcN4AaABAg",
+      "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+      "published_at": "2026-04-30T20:29:04Z",
+      "text": "These are great. \nA bit of feedback... It's a lot of information. It's all useful but so much is crammed in that nothing sticks. I suggest making these shorts shorter and giving only 3-4 at once.\nThese are great, thanks for posting!",
+      "is_reply": false,
+      "tags": []
+    },
+    {
+      "comment_id": "UgyW9Uh00sdCjupeQAN4AaABAg.AW0ti_rkJ9cAWDr9fhOdBU",
+      "video_title": "How to regulate your nervous system",
+      "published_at": "2026-04-30T12:15:06Z",
+      "text": "​@vtheb1299Really? Are these the symptoms of panick attack? I didn't know.. I will look up to it.. Awareness is the half solution..Thanks for the feedback..",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgyW9Uh00sdCjupeQAN4AaABAg.AW0ti_rkJ9cAWDk40-4vdi",
+      "video_title": "How to regulate your nervous system",
+      "published_at": "2026-04-30T11:13:10Z",
+      "text": "panic attack my friend :-(((",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgwSNl1YWchL1JD3dsp4AaABAg.AWZZKxhwtmtAW_Gpe7-CcJ",
+      "video_title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "published_at": "2026-05-09T05:11:27Z",
+      "text": "I was thinking of asking for a clear picture of this one as well as a previous one. These are so valuable! 😍",
+      "is_reply": true,
+      "tags": [
+        "trust"
+      ]
+    },
+    {
+      "comment_id": "Ugyn_Wu2cVcYcQHF8ct4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-05-06T22:16:11Z",
+      "text": "You should sell this as a pdf. Keep the post it notes design. This is a great video!",
+      "is_reply": false,
+      "tags": [
+        "trust",
+        "loyalty",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "Ugypi_kiXVJBE27kG4x4AaABAg",
+      "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+      "published_at": "2026-05-04T01:11:41Z",
+      "text": "From a fellow Aussie ❤ I love how we are so direct and tell it like it is without all the fluff ❤ thank you!",
+      "is_reply": false,
+      "tags": [
+        "trust"
+      ]
+    },
+    {
+      "comment_id": "UgzmC9u6uNWidieHlAZ4AaABAg",
+      "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+      "published_at": "2026-05-13T17:13:15Z",
+      "text": "Thanks 🙏 can you do something on breaking bad habits please 😳",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "Ugwpm1rfBVpwLKjpwh54AaABAg",
+      "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+      "published_at": "2026-05-10T22:07:38Z",
+      "text": "Could you give us tips to break bad habits? Thank you!",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgwVsTt8Q1JOpEh_WjF4AaABAg",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-27T10:20:37Z",
+      "text": "Any advice for not having any desire to do anything at all and doing even the tiniest step triggers dark thoughts...",
+      "is_reply": false,
+      "tags": [
+        "self-worth and shame",
+        "direct request",
+        "stigma",
+        "urgent"
+      ]
+    },
+    {
+      "comment_id": "UgxrvDnRbjY06Lcjucl4AaABAg",
+      "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+      "published_at": "2026-05-25T18:49:42Z",
+      "text": "Hey TPP is there any chance you could make a short one about how to approach failure as I am into very intense financial markets doing trading what advice could you give to traders?",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "Ugx6tMBHV4VATu5wwsl4AaABAg",
+      "video_title": "6 Psychology Facts I Wish Everyone Knew",
+      "published_at": "2026-05-20T06:43:59Z",
+      "text": "Hi, thank you for this. Do you have a PDF version of the list? I'd like to keep it pinned on my wall.",
+      "is_reply": false,
+      "tags": [
+        "loyalty",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgyXGuMfCyrR64KdI5t4AaABAg",
+      "video_title": "6 Psychology Facts I Wish Everyone Knew",
+      "published_at": "2026-05-19T12:30:48Z",
+      "text": "I need all of these brain tips!",
+      "is_reply": false,
+      "tags": [
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzRPPqVXDM3EaG79494AaABAg.AW3aWoFCxnBAW6578d5A5J",
+      "video_title": "I’m a Psychologist. Stop believing every thought. Do this instead.",
+      "published_at": "2026-04-27T11:51:54Z",
+      "text": "One thought can change everything that follows.\n\nThe way you think shapes how you feel, what you do next, and the story you tell yourself. That’s why learning to work with your thoughts can change so much.\n\nWhen I think I’ll fail → I feel fearful → I want to avoid → what helps is starting anyway.\n\nWhen I think everyone is judging me → I feel anxious → I want to perform or hide → what helps is finding the evidence.\n\nWhen I think I’m not enough → I feel low → I want to withdraw → what helps is one kind thing.\n\nWhen I think I must be perfect → I feel stressed → I want to procrastinate → what helps is messy is fine.\n\nWhen I think I’m behind → I feel deflated → I want to compare → what helps is zooming out.\n\nWhen I think I’ve ruined everything → I feel ashamed → I want to shut down → what helps is one small repair.\n\nWhen I think resting is lazy → I feel guilty → I want to push through → what helps is remembering rest is productive.\n\nWhen I think I can’t cope → I feel overwhelmed → I want to freeze → what helps is the next step.\n\nWhen I think nothing changes → I feel hopeless → I want to give up → what helps is one thing.\n\nWhen I think I’m too much → I feel shame → I want to make myself smaller → what helps is remembering the right people won’t think so.\n\nYour thoughts are not facts.\nThey are your brain’s best guess.\nAnd your best guess can be updated.\n\nWant more practical tools like this? Link in Bio for the details of my mini course.",
+      "is_reply": true,
+      "tags": [
+        "anxiety and fear",
+        "fatigue and low capacity",
+        "self-worth and shame",
+        "trust",
+        "stigma"
+      ]
+    },
+    {
+      "comment_id": "UgxOgvJpA_J5tIXqitR4AaABAg",
+      "video_title": "A psychologist's honest rating of anxiety tools. 🧠",
+      "published_at": "2026-05-27T01:57:39Z",
+      "text": "Your videos are very creative",
+      "is_reply": false,
+      "tags": [
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "Ugwywa3lxQXGPVBxvER4AaABAg",
+      "video_title": "6 Psychology Facts I Wish Everyone Knew",
+      "published_at": "2026-05-21T01:14:02Z",
+      "text": "Thank you so much for making it super easily screenshotable.😊❤",
+      "is_reply": false,
+      "tags": [
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "Ugyq63gf4CBtv0YOjAJ4AaABAg",
+      "video_title": "6 Psychology Facts I Wish Everyone Knew",
+      "published_at": "2026-05-19T10:43:09Z",
+      "text": "I like your videos a lot!",
+      "is_reply": false,
+      "tags": [
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "Ugz9QbXAScwJINv4dLd4AaABAg",
+      "video_title": "What your brain is ACTUALLY trying to tell you (Psychologist explains)",
+      "published_at": "2026-05-10T17:45:50Z",
+      "text": "👏👏👏👏\nThis is so needed. Thank you! Keep going, please!",
+      "is_reply": false,
+      "tags": [
+        "loyalty",
+        "direct request"
+      ]
+    },
+    {
+      "comment_id": "UgzRw30cyad_q6oUPy54AaABAg",
+      "video_title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+      "published_at": "2026-05-10T12:48:20Z",
+      "text": "👏🏻👏🏻👏🏻💯💯 I'm your fan.",
+      "is_reply": false,
+      "tags": [
+        "loyalty"
+      ]
+    },
+    {
+      "comment_id": "UgxPj7dNWwTHQiEmLMd4AaABAg",
+      "video_title": "Stop Ignoring your behaviour. Heres what it’s actually telling you",
+      "published_at": "2026-05-05T18:18:12Z",
+      "text": "I will stop doomscrolling after this short and change my state",
+      "is_reply": false,
+      "tags": []
+    }
+  ],
+  "video_counts": [
+    {
+      "title": "4 years of therapy in 60 seconds",
+      "comments": 7
+    },
+    {
+      "title": "I'm a psychologist. If you're a people pleaser, here's what's actually happening… 🔍",
+      "comments": 3
+    },
+    {
+      "title": "A psychologist's honest rating of anxiety tools. 🧠",
+      "comments": 7
+    },
+    {
+      "title": "The best skill you can learn for your mental health 🧠",
+      "comments": 6
+    },
+    {
+      "title": "Give me 60 seconds and I’ll teach you the truth about your own psychology",
+      "comments": 8
+    },
+    {
+      "title": "6 Psychology Facts I Wish Everyone Knew",
+      "comments": 14
+    },
+    {
+      "title": "I'm a Psychologist. Give me 60 seconds and I'll change the way you think about anxiety.",
+      "comments": 2
+    },
+    {
+      "title": "I'm a psychologist. Here are 6 of your biggest fears – REFRAMED! 🧠",
+      "comments": 7
+    },
+    {
+      "title": "I'm a Psychologist. Here's the truth about habits in 60 seconds.",
+      "comments": 8
+    },
+    {
+      "title": "Stop ignoring your behaviour. Here’s what it’s actually telling you",
+      "comments": 13
+    },
+    {
+      "title": "How To Regulate Your Emotions",
+      "comments": 5
+    },
+    {
+      "title": "What your brain is ACTUALLY trying to tell you (Psychologist explains)",
+      "comments": 9
+    }
+  ]
+}
